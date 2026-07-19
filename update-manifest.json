@@ -1,25 +1,40 @@
 {
-    "schemaVersion":  1,
-    "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-19T15:44:28.9374204+00:00",
-    "releases":  [
-                     {
-                         "version":  "0.7.0-preview.4",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-19T15:44:28.9322850+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.4/BlenkBase-0.7.0-preview.4-win-x64.zip",
-                         "sizeBytes":  338358442,
-                         "sha256":  "137D4AA081199B01511750467F4A89D0936034298117D12E50D9455829860F9E",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "ARK: Survival Ascended besitzt jetzt eine eigene CurseForge-Modverwaltung.",
-                                              "Mod-Projekt-IDs können geordnet hinzugefügt, entfernt und gespeichert werden.",
-                                              "Lokale ASA-Moddateien und fehlende Downloads werden in der Oberfläche angezeigt.",
-                                              "Mods prüfen und Server starten aktualisiert zuerst den Server und lässt ASA anschließend alle konfigurierten Mods laden oder aktualisieren.",
-                                              "Der Serverstart und die Live-Konsole zeigen den Mod-Prüfstatus verständlich an.",
-                                              "Die bestehende TeamSpeak-6- und Blenk-Voice-Integration bleibt unverändert erhalten."
-                                          ]
-                     }
-                 ]
+  "schemaVersion": 1,
+  "product": "BlenkBase",
+  "generatedAtUtc": "2026-07-19T18:30:26.1862373+00:00",
+  "releases": [
+    {
+      "version": "0.7.0-preview.7",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-19T18:30:26.1821377+00:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.7/BlenkBase-0.7.0-preview.7-win-x64.zip",
+      "sizeBytes": 338396880,
+      "sha256": "6EA6007A7EAB36639FD4624E558B7BA90CE12DFC591385AC11CFDE96CF67888D",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "LS22 und LS25 wechseln einen belegten Spielstand-Slot nicht mehr automatisch.",
+        "Kartenwechsel erfordern bei belegtem Spielstand ausdrücklich einen freien Ziel-Slot.",
+        "GIANTS-Sicherungen unter profile\\savegameBackup werden in BlenkBase-Backups aufgenommen."
+      ]
+    },
+    {
+      "version": "0.7.0-preview.4",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-19T15:44:28.9322850+00:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.4/BlenkBase-0.7.0-preview.4-win-x64.zip",
+      "sizeBytes": 338358442,
+      "sha256": "137D4AA081199B01511750467F4A89D0936034298117D12E50D9455829860F9E",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "ARK: Survival Ascended besitzt jetzt eine eigene CurseForge-Modverwaltung.",
+        "Mod-Projekt-IDs können geordnet hinzugefügt, entfernt und gespeichert werden.",
+        "Lokale ASA-Moddateien und fehlende Downloads werden in der Oberfläche angezeigt.",
+        "Mods prüfen und Server starten aktualisiert zuerst den Server und lässt ASA anschließend alle konfigurierten Mods laden oder aktualisieren.",
+        "Der Serverstart und die Live-Konsole zeigen den Mod-Prüfstatus verständlich an.",
+        "Die bestehende TeamSpeak-6- und Blenk-Voice-Integration bleibt unverändert erhalten."
+      ]
+    }
+  ]
 }
