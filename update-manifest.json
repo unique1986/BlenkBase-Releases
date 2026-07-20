@@ -1,8 +1,24 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-20T17:09:30.8182229+00:00",
+    "generatedAtUtc":  "2026-07-20T17:54:25.9433788+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.0-preview.11",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-07-20T17:54:25.9387769+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.11/BlenkBase-0.7.0-preview.11-win-x64.zip",
+                         "sizeBytes":  338410010,
+                         "sha256":  "A9389BF1CDBFE70E94A263BED943E58866FA5D4BBCD70894FB5B6426568B36AA",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Behebt Doppelstarts und Exitcode 3 bei erreichbaren Voice-Servern 0.4.x",
+                                              "Altserver ohne Prozess-ID werden vor Updates kontrolliert beendet",
+                                              "Besitzeridentitäten erscheinen geschützt in der Kontenverwaltung",
+                                              "Kompatibel mit Blenk Voice Server 0.5.1"
+                                          ]
+                     },
                      {
                          "version":  "0.7.0-preview.10",
                          "channel":  "beta",
@@ -53,7 +69,7 @@
                          "mandatory":  false,
                          "releaseNotes":  [
                                               "LS22 und LS25 wechseln einen belegten Spielstand-Slot nicht mehr automatisch.",
-                                              "Kartenwechsel erfordern bei belegtem Spielstand ausdrÃƒÂ¼cklich einen freien Ziel-Slot.",
+                                              "Kartenwechsel erfordern bei belegtem Spielstand ausdrÃƒÆ’Ã‚Â¼cklich einen freien Ziel-Slot.",
                                               "GIANTS-Sicherungen unter profile\\savegameBackup werden in BlenkBase-Backups aufgenommen."
                                           ]
                      },
@@ -68,11 +84,11 @@
                          "mandatory":  false,
                          "releaseNotes":  [
                                               "ARK: Survival Ascended besitzt jetzt eine eigene CurseForge-Modverwaltung.",
-                                              "Mod-Projekt-IDs kÃƒÂ¶nnen geordnet hinzugefÃƒÂ¼gt, entfernt und gespeichert werden.",
-                                              "Lokale ASA-Moddateien und fehlende Downloads werden in der OberflÃƒÂ¤che angezeigt.",
-                                              "Mods prÃƒÂ¼fen und Server starten aktualisiert zuerst den Server und lÃƒÂ¤sst ASA anschlieÃƒÅ¸end alle konfigurierten Mods laden oder aktualisieren.",
-                                              "Der Serverstart und die Live-Konsole zeigen den Mod-PrÃƒÂ¼fstatus verstÃƒÂ¤ndlich an.",
-                                              "Die bestehende TeamSpeak-6- und Blenk-Voice-Integration bleibt unverÃƒÂ¤ndert erhalten."
+                                              "Mod-Projekt-IDs kÃƒÆ’Ã‚Â¶nnen geordnet hinzugefÃƒÆ’Ã‚Â¼gt, entfernt und gespeichert werden.",
+                                              "Lokale ASA-Moddateien und fehlende Downloads werden in der OberflÃƒÆ’Ã‚Â¤che angezeigt.",
+                                              "Mods prÃƒÆ’Ã‚Â¼fen und Server starten aktualisiert zuerst den Server und lÃƒÆ’Ã‚Â¤sst ASA anschlieÃƒÆ’Ã…Â¸end alle konfigurierten Mods laden oder aktualisieren.",
+                                              "Der Serverstart und die Live-Konsole zeigen den Mod-PrÃƒÆ’Ã‚Â¼fstatus verstÃƒÆ’Ã‚Â¤ndlich an.",
+                                              "Die bestehende TeamSpeak-6- und Blenk-Voice-Integration bleibt unverÃƒÆ’Ã‚Â¤ndert erhalten."
                                           ]
                      }
                  ]
