@@ -1,8 +1,24 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-20T17:54:25.9433788+00:00",
+    "generatedAtUtc":  "2026-07-20T19:32:07.3971525+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.0-preview.12",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-07-20T19:32:07.3883091+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.12/BlenkBase-0.7.0-preview.12-win-x64.zip",
+                         "sizeBytes":  338413927,
+                         "sha256":  "B3F573DEB0EEA942A09368ED6577955C7151B8A67F4C2BB36281CCAA5A4C889B",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Voice-Server-Updates und Startvorgänge laufen unabhängig von der Browseranfrage im Hintergrund weiter",
+                                              "Kein Abbruch mehr durch Failed to fetch oder getrennte Browseranfragen",
+                                              "Sichtbarer Fortschritt und zuverlässige Statusabfrage bis zum Abschluss",
+                                              "Kompatibel mit Blenk Voice Server 0.5.2"
+                                          ]
+                     },
                      {
                          "version":  "0.7.0-preview.11",
                          "channel":  "beta",
