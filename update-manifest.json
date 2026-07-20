@@ -1,8 +1,22 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-20T19:32:07.3971525+00:00",
+    "generatedAtUtc":  "2026-07-20T20:07:17.6067938+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.0-preview.13",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-07-20T20:07:17.6004040+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.13/BlenkBase-0.7.0-preview.13-win-x64.zip",
+                         "sizeBytes":  338414149,
+                         "sha256":  "A8CBE65F84AD85FB31874CC61B615054DD5AF31B388CF9914BBD8F08B2F150A3",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Konkreter Startfehler der Blenk-Voice-Runtime statt nur des Exitcodes",
+                                              "Eindeutiger Status nach fehlgeschlagenen Serveraktionen"
+                                          ]
+                     },
                      {
                          "version":  "0.7.0-preview.12",
                          "channel":  "beta",
