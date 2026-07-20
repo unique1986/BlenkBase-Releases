@@ -1,8 +1,21 @@
 {
   "schemaVersion": 1,
   "product": "BlenkBase",
-  "generatedAtUtc": "2026-07-19T18:30:26.1862373+00:00",
+  "generatedAtUtc": "2026-07-20T11:02:44.5694688+00:00",
   "releases": [
+    {
+      "version": "0.7.0-preview.8",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-20T11:02:44.5643545+00:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.8/BlenkBase-0.7.0-preview.8-win-x64.zip",
+      "sizeBytes": 338400333,
+      "sha256": "89EB3875CCDC5081387DAC4F2447F13FD90C2AD2FD758374404FB7D855BA4330",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Besitzer- und allgemeine Join-Links direkt in Blenk Base kopieren; Verbindungsdatei bleibt als Fallback."
+      ]
+    },
     {
       "version": "0.7.0-preview.7",
       "channel": "beta",
