@@ -1,8 +1,21 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-20T15:18:05.8700261+00:00",
+    "generatedAtUtc":  "2026-07-20T17:09:30.8182229+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.0-preview.10",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-07-20T17:09:30.8026358+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.10/BlenkBase-0.7.0-preview.10-win-x64.zip",
+                         "sizeBytes":  338408314,
+                         "sha256":  "0E362CCAB2C42B67DBC996F33C6035EBDCA0E242F21B211270BBCA049141E113",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Blenk-Voice-Konten direkt in der Sprachserver-Zentrale verwalten,Laufende Voice-Server werden nach einem Base-Neustart korrekt wiedererkannt,Kompatibel mit Blenk Voice Server 0.5.0 und Clientprotokoll 13"
+                                          ]
+                     },
                      {
                          "version":  "0.7.0-preview.9",
                          "channel":  "beta",
@@ -40,7 +53,7 @@
                          "mandatory":  false,
                          "releaseNotes":  [
                                               "LS22 und LS25 wechseln einen belegten Spielstand-Slot nicht mehr automatisch.",
-                                              "Kartenwechsel erfordern bei belegtem Spielstand ausdrÃ¼cklich einen freien Ziel-Slot.",
+                                              "Kartenwechsel erfordern bei belegtem Spielstand ausdrÃƒÂ¼cklich einen freien Ziel-Slot.",
                                               "GIANTS-Sicherungen unter profile\\savegameBackup werden in BlenkBase-Backups aufgenommen."
                                           ]
                      },
@@ -55,11 +68,11 @@
                          "mandatory":  false,
                          "releaseNotes":  [
                                               "ARK: Survival Ascended besitzt jetzt eine eigene CurseForge-Modverwaltung.",
-                                              "Mod-Projekt-IDs kÃ¶nnen geordnet hinzugefÃ¼gt, entfernt und gespeichert werden.",
-                                              "Lokale ASA-Moddateien und fehlende Downloads werden in der OberflÃ¤che angezeigt.",
-                                              "Mods prÃ¼fen und Server starten aktualisiert zuerst den Server und lÃ¤sst ASA anschlieÃŸend alle konfigurierten Mods laden oder aktualisieren.",
-                                              "Der Serverstart und die Live-Konsole zeigen den Mod-PrÃ¼fstatus verstÃ¤ndlich an.",
-                                              "Die bestehende TeamSpeak-6- und Blenk-Voice-Integration bleibt unverÃ¤ndert erhalten."
+                                              "Mod-Projekt-IDs kÃƒÂ¶nnen geordnet hinzugefÃƒÂ¼gt, entfernt und gespeichert werden.",
+                                              "Lokale ASA-Moddateien und fehlende Downloads werden in der OberflÃƒÂ¤che angezeigt.",
+                                              "Mods prÃƒÂ¼fen und Server starten aktualisiert zuerst den Server und lÃƒÂ¤sst ASA anschlieÃƒÅ¸end alle konfigurierten Mods laden oder aktualisieren.",
+                                              "Der Serverstart und die Live-Konsole zeigen den Mod-PrÃƒÂ¼fstatus verstÃƒÂ¤ndlich an.",
+                                              "Die bestehende TeamSpeak-6- und Blenk-Voice-Integration bleibt unverÃƒÂ¤ndert erhalten."
                                           ]
                      }
                  ]
