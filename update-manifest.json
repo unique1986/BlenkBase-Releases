@@ -1,8 +1,22 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-21T02:13:38.0718409+00:00",
+    "generatedAtUtc":  "2026-07-21T19:24:47.4335441+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.0-preview.15",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-07-21T19:24:47.4285280+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.15/BlenkBase-0.7.0-preview.15-win-x64.zip",
+                         "sizeBytes":  338426502,
+                         "sha256":  "24DD7DC1C91B0E6F28C838A32E8802817DA668BF74C407528D52BD9CB6C4C43E",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Neue Dachmarke: blnk - Base",
+                                              "Bestehende Installationen und Updatekanäle bleiben kompatibel."
+                                          ]
+                     },
                      {
                          "version":  "0.7.0-preview.14",
                          "channel":  "beta",
