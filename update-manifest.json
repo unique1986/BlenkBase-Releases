@@ -1,8 +1,24 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-20T20:07:17.6067938+00:00",
+    "generatedAtUtc":  "2026-07-21T02:13:38.0718409+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.0-preview.14",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-07-21T02:13:38.0678359+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.14/BlenkBase-0.7.0-preview.14-win-x64.zip",
+                         "sizeBytes":  338414969,
+                         "sha256":  "625A710DA99AE21D2317265A0A3BCF30EF97B2699616FA409491298EE9908A36",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Besitzerkonto nach Altdatenreparatur direkt in Blenk Base anlegen",
+                                              "E-Mail-Adresse, Anzeigename und Kennwort aller Voice-Konten direkt bearbeiten",
+                                              "Lokale Besitzeridentität in ein vollständiges Serverkonto umwandeln",
+                                              "Kompatibel mit Blenk Voice Server 0.5.5"
+                                          ]
+                     },
                      {
                          "version":  "0.7.0-preview.13",
                          "channel":  "beta",
