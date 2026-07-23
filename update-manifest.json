@@ -1,8 +1,22 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-23T13:34:51.8828344+00:00",
+    "generatedAtUtc":  "2026-07-23T15:56:11.7381885+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.0-preview.19",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-07-23T15:56:11.7331367+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.19/BlenkBase-0.7.0-preview.19-win-x64.zip",
+                         "sizeBytes":  338438791,
+                         "sha256":  "0B2EE4FBB347810684C6E7CB6D7A3E95505C9E3BD8D62105F55C8D8534AB0F42",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Behebt die grosse leere Scrollflaeche unterhalb des Instanz-Dashboards.",
+                                              "Instanzkarten werden auf Desktop-Bildschirmen als festes 4er-Raster ohne horizontales Scrollen dargestellt."
+                                          ]
+                     },
                      {
                          "version":  "0.7.0-preview.18",
                          "channel":  "beta",
