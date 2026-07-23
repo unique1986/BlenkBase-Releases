@@ -1,8 +1,21 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-23T01:23:45.4766245+00:00",
+    "generatedAtUtc":  "2026-07-23T13:34:51.8828344+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.0-preview.18",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-07-23T13:34:51.8768184+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.18/BlenkBase-0.7.0-preview.18-win-x64.zip",
+                         "sizeBytes":  338438892,
+                         "sha256":  "D5EB68B3CA596DAADF4445E7608B76E56FE21C18811C569B3382A2F1D08ED52B",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Dashboard auf Ultrawide und 4K korrigiert; Instanzkarten zeigen Bilder, Status, Kennzahlen und Aktionen wieder vollstaendig."
+                                          ]
+                     },
                      {
                          "version":  "0.7.0-preview.17",
                          "channel":  "beta",
