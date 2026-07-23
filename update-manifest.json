@@ -1,8 +1,21 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-22T18:59:48.8822880+00:00",
+    "generatedAtUtc":  "2026-07-23T01:23:45.4766245+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.0-preview.17",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-07-23T01:23:45.4712565+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.17/BlenkBase-0.7.0-preview.17-win-x64.zip",
+                         "sizeBytes":  338438757,
+                         "sha256":  "C36A98551419F133C3699C074E670E03CBAF390A68373A4DA48D8D8FFEA94657",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Serverweite Kanalbilder, Profilabgleich und versionierte Raumstruktur-Sicherungen inklusive Sicherheitsbackup sowie Wiederherstellung."
+                                          ]
+                     },
                      {
                          "version":  "0.7.0-preview.16",
                          "channel":  "beta",
