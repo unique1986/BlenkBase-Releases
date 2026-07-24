@@ -1,8 +1,23 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-24T20:01:40.0382770+00:00",
+    "generatedAtUtc":  "2026-07-24T22:23:04.1564276+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.0-preview.23",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-07-24T22:23:04.1523912+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.23/BlenkBase-0.7.0-preview.23-win-x64.zip",
+                         "sizeBytes":  341240554,
+                         "sha256":  "2CBAFE08FAB1F1A6806091F00258C167FA8B089A7978FBB48383BDE53216C10A",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Optionale lokale Ollama-KI direkt in blnk Base installieren und verwalten",
+                                              "KI-Modelle 2B, 4B und 9B je Voice-Instanz auswaehlen",
+                                              "blnk Voice Bot mit lokaler Konversation, Hilfe, Radio, YouTube und Twitch"
+                                          ]
+                     },
                      {
                          "version":  "0.7.0-preview.22",
                          "channel":  "beta",
@@ -13,10 +28,10 @@
                          "minimumVersion":  "0.7.0-preview.1",
                          "mandatory":  false,
                          "releaseNotes":  [
-                                              "Systembackup konsolidiert TeamSpeak- und Manager-SQLite-Datenbanken samt WAL-Dateien vor der Verschlüsselung.",
-                                              "VSS-Snapshotpfade werden nicht mehr direkt durch SQLite geöffnet.",
-                                              "Die Oberfläche zeigt bei einem Backupfehler künftig die konkrete Ursache statt einer allgemeinen englischen Fehlermeldung.",
-                                              "208 automatisierte Tests und der vollständige Backup-/Restore-Test wurden erfolgreich ausgeführt."
+                                              "Systembackup konsolidiert TeamSpeak- und Manager-SQLite-Datenbanken samt WAL-Dateien vor der VerschlÃ¼sselung.",
+                                              "VSS-Snapshotpfade werden nicht mehr direkt durch SQLite geÃ¶ffnet.",
+                                              "Die OberflÃ¤che zeigt bei einem Backupfehler kÃ¼nftig die konkrete Ursache statt einer allgemeinen englischen Fehlermeldung.",
+                                              "208 automatisierte Tests und der vollstÃ¤ndige Backup-/Restore-Test wurden erfolgreich ausgefÃ¼hrt."
                                           ]
                      },
                      {
@@ -30,9 +45,9 @@
                          "mandatory":  false,
                          "releaseNotes":  [
                                               "Systembackups verwenden Windows-VSS und sichern laufende Spiel- und Sprachserver ohne Unterbrechung.",
-                                              "Gesperrte Dateien und Bytebereichssperren blockieren das verschlÃ¼sselte Notfallbackup nicht mehr.",
-                                              "SQLite-Datenbanken, SpielstÃ¤nde, Konfigurationen, TeamSpeak-IdentitÃ¤ten und native Voice-Daten werden konsistent aus dem Live-Snapshot gesichert.",
-                                              "Der vollstÃ¤ndige Sicherungs-, IntegritÃ¤ts- und Wiederherstellungstest wurde erfolgreich ausgefÃ¼hrt."
+                                              "Gesperrte Dateien und Bytebereichssperren blockieren das verschlÃƒÂ¼sselte Notfallbackup nicht mehr.",
+                                              "SQLite-Datenbanken, SpielstÃƒÂ¤nde, Konfigurationen, TeamSpeak-IdentitÃƒÂ¤ten und native Voice-Daten werden konsistent aus dem Live-Snapshot gesichert.",
+                                              "Der vollstÃƒÂ¤ndige Sicherungs-, IntegritÃƒÂ¤ts- und Wiederherstellungstest wurde erfolgreich ausgefÃƒÂ¼hrt."
                                           ]
                      },
                      {
@@ -45,11 +60,11 @@
                          "minimumVersion":  "0.7.0-preview.1",
                          "mandatory":  false,
                          "releaseNotes":  [
-                                              "Verschlüsselte Notfallwiederherstellung für eine vollständige blnk-Base-Installation.",
-                                              "Lokale Sicherungsziele einschließlich separater Laufwerke und SMB/UNC-Pfade sowie optionale SFTP-Spiegelung.",
-                                              "Wiederherstellungsassistent direkt nach einer Neuinstallation mit Integritätsprüfung vor dem Restore.",
-                                              "Sichert Datenbank, Benutzer, Instanzen, Ports, Katalog, Zeitpläne, Spielstände, Konfigurationen, TeamSpeak-Identitäten und Blenk-Voice-Zertifikate.",
-                                              "Fehlende Serverprogramme werden nach der Wiederherstellung kontrolliert erneut heruntergeladen; Instanzen bleiben zunächst gestoppt."
+                                              "VerschlÃ¼sselte Notfallwiederherstellung fÃ¼r eine vollstÃ¤ndige blnk-Base-Installation.",
+                                              "Lokale Sicherungsziele einschlieÃŸlich separater Laufwerke und SMB/UNC-Pfade sowie optionale SFTP-Spiegelung.",
+                                              "Wiederherstellungsassistent direkt nach einer Neuinstallation mit IntegritÃ¤tsprÃ¼fung vor dem Restore.",
+                                              "Sichert Datenbank, Benutzer, Instanzen, Ports, Katalog, ZeitplÃ¤ne, SpielstÃ¤nde, Konfigurationen, TeamSpeak-IdentitÃ¤ten und Blenk-Voice-Zertifikate.",
+                                              "Fehlende Serverprogramme werden nach der Wiederherstellung kontrolliert erneut heruntergeladen; Instanzen bleiben zunÃ¤chst gestoppt."
                                           ]
                      },
                      {
@@ -103,9 +118,9 @@
                          "mandatory":  false,
                          "releaseNotes":  [
                                               "Neues blnk - Base Dashboard exakt nach der freigegebenen Serverzentrale-Vorlage.",
-                                              "Übersichtliche Instanzkarten mit großem Spielmotiv und kompakten Aktionen.",
-                                              "Instanzeinstellungen bleiben vollständig über das Drei-Punkte-Menü erreichbar.",
-                                              "Überarbeitete Serverwelt, Statusleiste, Aktivitäten und Schnellaktionen.",
+                                              "Ãœbersichtliche Instanzkarten mit groÃŸem Spielmotiv und kompakten Aktionen.",
+                                              "Instanzeinstellungen bleiben vollstÃ¤ndig Ã¼ber das Drei-Punkte-MenÃ¼ erreichbar.",
+                                              "Ãœberarbeitete Serverwelt, Statusleiste, AktivitÃ¤ten und Schnellaktionen.",
                                               "Neue blnk-Markenkennzeichnung und aktualisierte Versionsanzeige."
                                           ]
                      },
@@ -120,7 +135,7 @@
                          "mandatory":  false,
                          "releaseNotes":  [
                                               "Neue Dachmarke: blnk - Base",
-                                              "Bestehende Installationen und Updatekanäle bleiben kompatibel."
+                                              "Bestehende Installationen und UpdatekanÃ¤le bleiben kompatibel."
                                           ]
                      },
                      {
@@ -135,7 +150,7 @@
                          "releaseNotes":  [
                                               "Besitzerkonto nach Altdatenreparatur direkt in Blenk Base anlegen",
                                               "E-Mail-Adresse, Anzeigename und Kennwort aller Voice-Konten direkt bearbeiten",
-                                              "Lokale Besitzeridentität in ein vollständiges Serverkonto umwandeln",
+                                              "Lokale BesitzeridentitÃ¤t in ein vollstÃ¤ndiges Serverkonto umwandeln",
                                               "Kompatibel mit Blenk Voice Server 0.5.5"
                                           ]
                      },
@@ -163,9 +178,9 @@
                          "minimumVersion":  "0.7.0-preview.1",
                          "mandatory":  false,
                          "releaseNotes":  [
-                                              "Voice-Server-Updates und Startvorgänge laufen unabhängig von der Browseranfrage im Hintergrund weiter",
+                                              "Voice-Server-Updates und StartvorgÃ¤nge laufen unabhÃ¤ngig von der Browseranfrage im Hintergrund weiter",
                                               "Kein Abbruch mehr durch Failed to fetch oder getrennte Browseranfragen",
-                                              "Sichtbarer Fortschritt und zuverlässige Statusabfrage bis zum Abschluss",
+                                              "Sichtbarer Fortschritt und zuverlÃ¤ssige Statusabfrage bis zum Abschluss",
                                               "Kompatibel mit Blenk Voice Server 0.5.2"
                                           ]
                      },
@@ -181,7 +196,7 @@
                          "releaseNotes":  [
                                               "Behebt Doppelstarts und Exitcode 3 bei erreichbaren Voice-Servern 0.4.x",
                                               "Altserver ohne Prozess-ID werden vor Updates kontrolliert beendet",
-                                              "BesitzeridentitÃ¤ten erscheinen geschÃ¼tzt in der Kontenverwaltung",
+                                              "BesitzeridentitÃƒÂ¤ten erscheinen geschÃƒÂ¼tzt in der Kontenverwaltung",
                                               "Kompatibel mit Blenk Voice Server 0.5.1"
                                           ]
                      },
@@ -235,7 +250,7 @@
                          "mandatory":  false,
                          "releaseNotes":  [
                                               "LS22 und LS25 wechseln einen belegten Spielstand-Slot nicht mehr automatisch.",
-                                              "Kartenwechsel erfordern bei belegtem Spielstand ausdrÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼cklich einen freien Ziel-Slot.",
+                                              "Kartenwechsel erfordern bei belegtem Spielstand ausdrÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼cklich einen freien Ziel-Slot.",
                                               "GIANTS-Sicherungen unter profile\\savegameBackup werden in BlenkBase-Backups aufgenommen."
                                           ]
                      },
@@ -250,11 +265,11 @@
                          "mandatory":  false,
                          "releaseNotes":  [
                                               "ARK: Survival Ascended besitzt jetzt eine eigene CurseForge-Modverwaltung.",
-                                              "Mod-Projekt-IDs kÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶nnen geordnet hinzugefÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼gt, entfernt und gespeichert werden.",
-                                              "Lokale ASA-Moddateien und fehlende Downloads werden in der OberflÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¤che angezeigt.",
-                                              "Mods prÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼fen und Server starten aktualisiert zuerst den Server und lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¤sst ASA anschlieÃƒÆ’Ã†â€™Ãƒâ€¦Ã‚Â¸end alle konfigurierten Mods laden oder aktualisieren.",
-                                              "Der Serverstart und die Live-Konsole zeigen den Mod-PrÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼fstatus verstÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¤ndlich an.",
-                                              "Die bestehende TeamSpeak-6- und Blenk-Voice-Integration bleibt unverÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¤ndert erhalten."
+                                              "Mod-Projekt-IDs kÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¶nnen geordnet hinzugefÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼gt, entfernt und gespeichert werden.",
+                                              "Lokale ASA-Moddateien und fehlende Downloads werden in der OberflÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤che angezeigt.",
+                                              "Mods prÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼fen und Server starten aktualisiert zuerst den Server und lÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤sst ASA anschlieÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¸end alle konfigurierten Mods laden oder aktualisieren.",
+                                              "Der Serverstart und die Live-Konsole zeigen den Mod-PrÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼fstatus verstÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤ndlich an.",
+                                              "Die bestehende TeamSpeak-6- und Blenk-Voice-Integration bleibt unverÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤ndert erhalten."
                                           ]
                      }
                  ]
