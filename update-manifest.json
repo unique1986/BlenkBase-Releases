@@ -1,8 +1,24 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-24T18:16:20.3893111+00:00",
+    "generatedAtUtc":  "2026-07-24T19:28:10.4829637+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.0-preview.21",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-07-24T19:28:10.4789129+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.21/BlenkBase-0.7.0-preview.21-win-x64.zip",
+                         "sizeBytes":  341224786,
+                         "sha256":  "556BB451AD5A5F8FC9DF6901FB35791AF614E66A496CC8AEB552BABFC9D8E983",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Systembackups verwenden Windows-VSS und sichern laufende Spiel- und Sprachserver ohne Unterbrechung.",
+                                              "Gesperrte Dateien und Bytebereichssperren blockieren das verschlÃ¼sselte Notfallbackup nicht mehr.",
+                                              "SQLite-Datenbanken, SpielstÃ¤nde, Konfigurationen, TeamSpeak-IdentitÃ¤ten und native Voice-Daten werden konsistent aus dem Live-Snapshot gesichert.",
+                                              "Der vollstÃ¤ndige Sicherungs-, IntegritÃ¤ts- und Wiederherstellungstest wurde erfolgreich ausgefÃ¼hrt."
+                                          ]
+                     },
                      {
                          "version":  "0.7.0-preview.20",
                          "channel":  "beta",
