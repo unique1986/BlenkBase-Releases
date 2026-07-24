@@ -1,8 +1,25 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-23T15:56:11.7381885+00:00",
+    "generatedAtUtc":  "2026-07-24T18:16:20.3893111+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.0-preview.20",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-07-24T18:16:20.3832795+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.20/BlenkBase-0.7.0-preview.20-win-x64.zip",
+                         "sizeBytes":  341236462,
+                         "sha256":  "3C28777DD14BFF627AA7CFE7058EDBA8EAADC0F449F510DE8E8069C5672CE5B1",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Verschlüsselte Notfallwiederherstellung für eine vollständige blnk-Base-Installation.",
+                                              "Lokale Sicherungsziele einschließlich separater Laufwerke und SMB/UNC-Pfade sowie optionale SFTP-Spiegelung.",
+                                              "Wiederherstellungsassistent direkt nach einer Neuinstallation mit Integritätsprüfung vor dem Restore.",
+                                              "Sichert Datenbank, Benutzer, Instanzen, Ports, Katalog, Zeitpläne, Spielstände, Konfigurationen, TeamSpeak-Identitäten und Blenk-Voice-Zertifikate.",
+                                              "Fehlende Serverprogramme werden nach der Wiederherstellung kontrolliert erneut heruntergeladen; Instanzen bleiben zunächst gestoppt."
+                                          ]
+                     },
                      {
                          "version":  "0.7.0-preview.19",
                          "channel":  "beta",
