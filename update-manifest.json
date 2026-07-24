@@ -1,8 +1,24 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-24T19:28:10.4829637+00:00",
+    "generatedAtUtc":  "2026-07-24T20:01:40.0382770+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.0-preview.22",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-07-24T20:01:40.0327591+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.22/BlenkBase-0.7.0-preview.22-win-x64.zip",
+                         "sizeBytes":  341225985,
+                         "sha256":  "0CC1C4F61EA442005A727E14FD2CF1E8273332C1F8CA5F1575033D60E1FC4E1F",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Systembackup konsolidiert TeamSpeak- und Manager-SQLite-Datenbanken samt WAL-Dateien vor der Verschlüsselung.",
+                                              "VSS-Snapshotpfade werden nicht mehr direkt durch SQLite geöffnet.",
+                                              "Die Oberfläche zeigt bei einem Backupfehler künftig die konkrete Ursache statt einer allgemeinen englischen Fehlermeldung.",
+                                              "208 automatisierte Tests und der vollständige Backup-/Restore-Test wurden erfolgreich ausgeführt."
+                                          ]
+                     },
                      {
                          "version":  "0.7.0-preview.21",
                          "channel":  "beta",
