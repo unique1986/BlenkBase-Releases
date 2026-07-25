@@ -1,8 +1,23 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-24T22:23:04.1564276+00:00",
+    "generatedAtUtc":  "2026-07-25T06:32:48.4221042+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.0-preview.24",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-07-25T06:32:48.4181005+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.24/BlenkBase-0.7.0-preview.24-win-x64.zip",
+                         "sizeBytes":  341258593,
+                         "sha256":  "B76211A29EC18B11191854087B6F28E679A0E986F04E7F40B53D800E80D8C801",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Lokale Ollama-KI wird nach Base-Neustarts automatisch wieder gestartet.",
+                                              "Ein 15-Sekunden-Waechter erkennt und repariert ausgefallene oder haengende Ollama-Prozesse.",
+                                              "Eine fehlerhafte optionale KI blockiert den Start des Voice-Servers nicht mehr."
+                                          ]
+                     },
                      {
                          "version":  "0.7.0-preview.23",
                          "channel":  "beta",
