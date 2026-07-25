@@ -1,8 +1,21 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-25T06:32:48.4221042+00:00",
+    "generatedAtUtc":  "2026-07-25T16:54:36.7381487+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.0-preview.25",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-07-25T16:54:36.7336431+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.25/BlenkBase-0.7.0-preview.25-win-x64.zip",
+                         "sizeBytes":  341367026,
+                         "sha256":  "F1A234624E7EF2AA2541E301C8F1A53EFA6A6D36840E7DAD55A9B42C6413163F",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Stabile native App-v1-API fuer Anmeldung, Profil, System, Einstellungen und Notfallwiederherstellung.;Native Sprachserver- und Instanzverwaltung ohne Legacy-Webrouten.;Mobiler Alertfeed fuer fehlgeschlagene Auftraege und kritische Instanzzustaende.;238 automatisierte Backendtests erfolgreich."
+                                          ]
+                     },
                      {
                          "version":  "0.7.0-preview.24",
                          "channel":  "beta",
