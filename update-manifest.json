@@ -1,8 +1,21 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-25T16:54:36.7381487+00:00",
+    "generatedAtUtc":  "2026-07-28T14:28:38.6551346+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.0-preview.26",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-07-28T14:28:38.6486037+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.26/BlenkBase-0.7.0-preview.26-win-x64.zip",
+                         "sizeBytes":  341367206,
+                         "sha256":  "BE7291750576FC6FEA57EF91FC670627A068E14694B4AD6573D8012DE684C9F0",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Unterstuetzt gebuendelte blnk-Voice-Sprachpakete mit sicher geprueften ZIP-Eintraegen; alle bestehenden Sicherheitstests bleiben aktiv."
+                                          ]
+                     },
                      {
                          "version":  "0.7.0-preview.25",
                          "channel":  "beta",
