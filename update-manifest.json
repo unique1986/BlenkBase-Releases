@@ -1,8 +1,24 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-30T11:29:15.7726242+00:00",
+    "generatedAtUtc":  "2026-07-30T19:52:28.0809047+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.1-beta.2",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-07-30T19:52:28.0768827+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.2/BlenkBase-0.7.1-beta.2-win-x64.zip",
+                         "sizeBytes":  341297092,
+                         "sha256":  "8A9E982397B0302E9EA6C3FC1F839341043DCB86901AA0C2B371FB5AE326E86C",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "ARK: Survival Ascended erhält eine Plattformauswahl in der Startkonfiguration.",
+                                              "Bestehende ASA-Instanzen können auf Nur Steam-PC umgestellt werden.",
+                                              "Der Startbefehl verwendet je nach Auswahl den geprüften ServerPlatform-Parameter.",
+                                              "Bestehende Konfigurationen bleiben standardmäßig auf Crossplay."
+                                          ]
+                     },
                      {
                          "version":  "0.7.1-beta.1",
                          "channel":  "beta",
