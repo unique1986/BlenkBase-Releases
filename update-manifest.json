@@ -1,8 +1,26 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-28T14:28:38.6551346+00:00",
+    "generatedAtUtc":  "2026-07-30T11:29:15.7726242+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.1-beta.1",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-07-30T11:29:15.7675943+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.1/BlenkBase-0.7.1-beta.1-win-x64.zip",
+                         "sizeBytes":  341252322,
+                         "sha256":  "420268DE2B3C098DC962F1E65176F1C654F98BA8C7A7186C20ECDB292630DB78",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Erster geschlossener Beta-Gesamtstand.",
+                                              "Native Sprachserver-Verwaltung und stabiler Blenk-Voice-Vertrag.",
+                                              "Gehärtete TeamSpeak-6-, Bot- und Medienintegration.",
+                                              "Erweiterte Spielebibliothek einschließlich LS22 und LS25.",
+                                              "Verschlüsselte Notfallwiederherstellung.",
+                                              "Aktualisiertes Handbuch und Android-Kompatibilität."
+                                          ]
+                     },
                      {
                          "version":  "0.7.0-preview.26",
                          "channel":  "beta",
