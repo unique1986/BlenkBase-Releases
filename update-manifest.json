@@ -1,8 +1,23 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-30T19:52:28.0809047+00:00",
+    "generatedAtUtc":  "2026-07-31T17:10:09.1566512+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.1-beta.3",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-07-31T17:10:09.1506242+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.3/BlenkBase-0.7.1-beta.3-win-x64.zip",
+                         "sizeBytes":  341304826,
+                         "sha256":  "CEBB9542F8404C0E97E6B36D3F92A9D5A8CC453AF03350E37C84BF26D684A80E",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Vollständige ASA-Spieler- und Kreaturen-Statistikreihen im Webinterface.",
+                                              "Manuelle, unbekannte INI-Werte bleiben sichtbar und speicherbar.",
+                                              "ASA-Wunschwerte werden nach spielseitigem Überschreiben wiederhergestellt."
+                                          ]
+                     },
                      {
                          "version":  "0.7.1-beta.2",
                          "channel":  "beta",
