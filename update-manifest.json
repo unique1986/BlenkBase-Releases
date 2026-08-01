@@ -1,8 +1,23 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-08-01T07:20:31.9638098+00:00",
+    "generatedAtUtc":  "2026-08-01T19:30:44.8511133+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.1-beta.5",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-08-01T19:30:44.8456023+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.5/BlenkBase-0.7.1-beta.5-win-x64.zip",
+                         "sizeBytes":  341323910,
+                         "sha256":  "CE8E110A7E1229758F0DBB29A2CE3756C9E4EB9CD13E78DC30E7FA3D6BF524C2",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "TeamSpeak-6-Instanzen lassen sich in der Sprachserver-Zentrale wieder starten, sicher stoppen, not-stoppen und aktualisieren.",
+                                              "Status und WebQuery-Erreichbarkeit werden nach Lebenszyklusaktionen automatisch neu geladen.",
+                                              "Regressionstests schützen die spezialisierte Sprachserver-Steuerung vor generischen Game-Server-Routen."
+                                          ]
+                     },
                      {
                          "version":  "0.7.1-beta.4",
                          "channel":  "beta",
