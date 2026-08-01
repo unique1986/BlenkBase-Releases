@@ -1,8 +1,24 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-07-31T17:10:09.1566512+00:00",
+    "generatedAtUtc":  "2026-08-01T07:20:31.9638098+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.1-beta.4",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-08-01T07:20:31.9603018+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.4/BlenkBase-0.7.1-beta.4-win-x64.zip",
+                         "sizeBytes":  341306424,
+                         "sha256":  "F45CF93738AA928371DC55C8465F83B3D0673EB99C46C408DEA2319AD78F777C",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Alle unterstützten Spiele erhalten erweiterte, deutsch beschriebene Servereinstellungen in sinnvollen Gruppen.",
+                                              "Neue generische Konfigurationsformate für JSON-Pointer, XML-Eigenschaften und DayZ-CFG.",
+                                              "Startparameter können Einstellungswerte sicher übernehmen; leere optionale Parameter werden ausgelassen.",
+                                              "Bestehende manuelle Werte bleiben erhalten und können über die Expertenansicht weiter gepflegt werden."
+                                          ]
+                     },
                      {
                          "version":  "0.7.1-beta.3",
                          "channel":  "beta",
