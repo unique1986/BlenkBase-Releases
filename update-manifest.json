@@ -1,8 +1,25 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-08-01T19:30:44.8511133+00:00",
+    "generatedAtUtc":  "2026-08-02T10:39:44.3652626+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.1-beta.6",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-08-02T10:39:44.3607461+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.6/BlenkBase-0.7.1-beta.6-win-x64.zip",
+                         "sizeBytes":  341352395,
+                         "sha256":  "70B220299E1339FE9CD63F7FFF0F86112605659A82CB46AA39CFED8C481A7F72",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Spielebibliothek auf 50 Serverdefinitionen erweitert",
+                                              "16 neue Steam-Dedicated-Server mit deutschen Konfigurationsfeldern ergänzt",
+                                              "Steam-Metadaten, Katalogverträge und Konfigurationsgenerierung vollständig geprüft",
+                                              "Killing Floor verlangt nun korrekt ein berechtigtes Steam-Konto",
+                                              "Katalog-Audit und maschinenlesbare Installationsnachweise aktualisiert"
+                                          ]
+                     },
                      {
                          "version":  "0.7.1-beta.5",
                          "channel":  "beta",
