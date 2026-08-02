@@ -1,8 +1,23 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-08-02T10:39:44.3652626+00:00",
+    "generatedAtUtc":  "2026-08-02T11:27:27.3137800+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.1-beta.7",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-08-02T11:27:27.3092691+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.7/BlenkBase-0.7.1-beta.7-win-x64.zip",
+                         "sizeBytes":  341355056,
+                         "sha256":  "61DEA64A35B01BBB59C536AB9A68C86EF61CEDA01710512F8CC94243E9AF1132",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Lokale Bibliotheksbilder für Windrose, TeamSpeak 6 und Minecraft Java",
+                                              "blnk Voice Server als native installierbare Bibliothekskarte",
+                                              "Robuste Bildzuordnung auch bei älteren Online-Katalogdefinitionen"
+                                          ]
+                     },
                      {
                          "version":  "0.7.1-beta.6",
                          "channel":  "beta",
