@@ -1,8 +1,21 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-08-02T11:27:27.3137800+00:00",
+    "generatedAtUtc":  "2026-08-07T16:29:16.3050048+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.1-beta.8",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-08-07T16:29:16.2979641+00:00",
+                         "packageUrl":  "https://github.com/CS2-RCON-Kennwort, sicherer RCON-Stopp, Mapgruppe und optionaler GSLT sind vollständig integriert./releases/download/v0.7.1-beta.8/BlenkBase-0.7.1-beta.8-win-x64.zip",
+                         "sizeBytes":  342337650,
+                         "sha256":  "609B9B8A2FCA714CA132F391EE5E2253CE6EF3FE1A1A57A30081DFE955FD1195",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Counter-Strike 2 wird mit IPv6- und Dual-Stack-Portbindungen korrekt als online erkannt."
+                                          ]
+                     },
                      {
                          "version":  "0.7.1-beta.7",
                          "channel":  "beta",
