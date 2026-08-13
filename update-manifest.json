@@ -1,8 +1,38 @@
 {
     "schemaVersion":  1,
     "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-08-07T16:29:16.3050048+00:00",
+    "generatedAtUtc":  "2026-08-13T16:11:20.2445289+00:00",
     "releases":  [
+                     {
+                         "version":  "0.7.1-beta.10",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-08-13T16:11:20.2384890+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.10/BlenkBase-0.7.1-beta.10-win-x64.zip",
+                         "sizeBytes":  342997965,
+                         "sha256":  "63378FD0AC06986E4CBFDD25963A6B607AC45200207637A17ED5A83033E8048E",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Neue Dienste-Zentrale für verwaltete blnk-Anwendungsserver mit Start, Stopp, Status, Konfiguration und Backup.",
+                                              "ARK ASA und ARK Survival Evolved übernehmen über den Dateimanager oder lokal ersetzte Konfigurationsdateien als neuen gewünschten Stand.",
+                                              "Vorhandene manuelle und unbekannte ARK-Konfigurationswerte bleiben bei Start, Update und Wiederherstellung erhalten.",
+                                              "Dateimanager-Änderungen, lokal kopierte Dateien und die ARK-Schutzkopie werden konsistent abgestimmt.",
+                                              "SSH.NET wurde auf die abgesicherte Version 2026.0.0 aktualisiert."
+                                          ]
+                     },
+                     {
+                         "version":  "0.7.1-beta.9",
+                         "channel":  "beta",
+                         "publishedAtUtc":  "2026-08-10T16:19:17.1663999+00:00",
+                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.9/BlenkBase-0.7.1-beta.9-win-x64.zip",
+                         "sizeBytes":  342340480,
+                         "sha256":  "3C668A8555EA2607EA067A0F6325BA538D1CACCD9F3D2DC8050F30BA673E604B",
+                         "minimumVersion":  "0.7.0-preview.1",
+                         "mandatory":  false,
+                         "releaseNotes":  [
+                                              "Desktop-Steam-Installationen werden nach Updates gegen die tatsächliche Steam-Bibliothek statt gegen den Instanzordner geprüft."
+                                          ]
+                     },
                      {
                          "version":  "0.7.1-beta.8",
                          "channel":  "beta",
