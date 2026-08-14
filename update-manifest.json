@@ -1,475 +1,490 @@
 {
-    "schemaVersion":  1,
-    "product":  "BlenkBase",
-    "generatedAtUtc":  "2026-08-13T16:11:20.2445289+00:00",
-    "releases":  [
-                     {
-                         "version":  "0.7.1-beta.10",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-08-13T16:11:20.2384890+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.10/BlenkBase-0.7.1-beta.10-win-x64.zip",
-                         "sizeBytes":  342997965,
-                         "sha256":  "63378FD0AC06986E4CBFDD25963A6B607AC45200207637A17ED5A83033E8048E",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Neue Dienste-Zentrale für verwaltete blnk-Anwendungsserver mit Start, Stopp, Status, Konfiguration und Backup.",
-                                              "ARK ASA und ARK Survival Evolved übernehmen über den Dateimanager oder lokal ersetzte Konfigurationsdateien als neuen gewünschten Stand.",
-                                              "Vorhandene manuelle und unbekannte ARK-Konfigurationswerte bleiben bei Start, Update und Wiederherstellung erhalten.",
-                                              "Dateimanager-Änderungen, lokal kopierte Dateien und die ARK-Schutzkopie werden konsistent abgestimmt.",
-                                              "SSH.NET wurde auf die abgesicherte Version 2026.0.0 aktualisiert."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.1-beta.9",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-08-10T16:19:17.1663999+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.9/BlenkBase-0.7.1-beta.9-win-x64.zip",
-                         "sizeBytes":  342340480,
-                         "sha256":  "3C668A8555EA2607EA067A0F6325BA538D1CACCD9F3D2DC8050F30BA673E604B",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Desktop-Steam-Installationen werden nach Updates gegen die tatsächliche Steam-Bibliothek statt gegen den Instanzordner geprüft."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.1-beta.8",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-08-07T16:29:16.2979641+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.8/BlenkBase-0.7.1-beta.8-win-x64.zip",
-                         "sizeBytes":  342337650,
-                         "sha256":  "609B9B8A2FCA714CA132F391EE5E2253CE6EF3FE1A1A57A30081DFE955FD1195",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Counter-Strike 2 wird mit IPv6- und Dual-Stack-Portbindungen korrekt als online erkannt.",
-                                              "CS2-RCON-Kennwort, sicherer RCON-Stopp, Mapgruppe und optionaler GSLT sind vollständig integriert.",
-                                              "Die wiederholte CS2-Windows-Konsolenmeldung wird aus der Live-Konsole gefiltert.",
-                                              "SteamCMD-Installation, echter Prozessstart, Portstatus und A2S-Abfrage wurden erfolgreich geprüft."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.1-beta.7",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-08-02T11:27:27.3092691+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.7/BlenkBase-0.7.1-beta.7-win-x64.zip",
-                         "sizeBytes":  341355056,
-                         "sha256":  "61DEA64A35B01BBB59C536AB9A68C86EF61CEDA01710512F8CC94243E9AF1132",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Lokale Bibliotheksbilder für Windrose, TeamSpeak 6 und Minecraft Java",
-                                              "blnk Voice Server als native installierbare Bibliothekskarte",
-                                              "Robuste Bildzuordnung auch bei älteren Online-Katalogdefinitionen"
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.1-beta.6",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-08-02T10:39:44.3607461+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.6/BlenkBase-0.7.1-beta.6-win-x64.zip",
-                         "sizeBytes":  341352395,
-                         "sha256":  "70B220299E1339FE9CD63F7FFF0F86112605659A82CB46AA39CFED8C481A7F72",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Spielebibliothek auf 50 Serverdefinitionen erweitert",
-                                              "16 neue Steam-Dedicated-Server mit deutschen Konfigurationsfeldern ergänzt",
-                                              "Steam-Metadaten, Katalogverträge und Konfigurationsgenerierung vollständig geprüft",
-                                              "Killing Floor verlangt nun korrekt ein berechtigtes Steam-Konto",
-                                              "Katalog-Audit und maschinenlesbare Installationsnachweise aktualisiert"
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.1-beta.5",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-08-01T19:30:44.8456023+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.5/BlenkBase-0.7.1-beta.5-win-x64.zip",
-                         "sizeBytes":  341323910,
-                         "sha256":  "CE8E110A7E1229758F0DBB29A2CE3756C9E4EB9CD13E78DC30E7FA3D6BF524C2",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "TeamSpeak-6-Instanzen lassen sich in der Sprachserver-Zentrale wieder starten, sicher stoppen, not-stoppen und aktualisieren.",
-                                              "Status und WebQuery-Erreichbarkeit werden nach Lebenszyklusaktionen automatisch neu geladen.",
-                                              "Regressionstests schützen die spezialisierte Sprachserver-Steuerung vor generischen Game-Server-Routen."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.1-beta.4",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-08-01T07:20:31.9603018+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.4/BlenkBase-0.7.1-beta.4-win-x64.zip",
-                         "sizeBytes":  341306424,
-                         "sha256":  "F45CF93738AA928371DC55C8465F83B3D0673EB99C46C408DEA2319AD78F777C",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Alle unterstützten Spiele erhalten erweiterte, deutsch beschriebene Servereinstellungen in sinnvollen Gruppen.",
-                                              "Neue generische Konfigurationsformate für JSON-Pointer, XML-Eigenschaften und DayZ-CFG.",
-                                              "Startparameter können Einstellungswerte sicher übernehmen; leere optionale Parameter werden ausgelassen.",
-                                              "Bestehende manuelle Werte bleiben erhalten und können über die Expertenansicht weiter gepflegt werden."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.1-beta.3",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-31T17:10:09.1506242+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.3/BlenkBase-0.7.1-beta.3-win-x64.zip",
-                         "sizeBytes":  341304826,
-                         "sha256":  "CEBB9542F8404C0E97E6B36D3F92A9D5A8CC453AF03350E37C84BF26D684A80E",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Vollständige ASA-Spieler- und Kreaturen-Statistikreihen im Webinterface.",
-                                              "Manuelle, unbekannte INI-Werte bleiben sichtbar und speicherbar.",
-                                              "ASA-Wunschwerte werden nach spielseitigem Überschreiben wiederhergestellt."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.1-beta.2",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-30T19:52:28.0768827+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.2/BlenkBase-0.7.1-beta.2-win-x64.zip",
-                         "sizeBytes":  341297092,
-                         "sha256":  "8A9E982397B0302E9EA6C3FC1F839341043DCB86901AA0C2B371FB5AE326E86C",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "ARK: Survival Ascended erhält eine Plattformauswahl in der Startkonfiguration.",
-                                              "Bestehende ASA-Instanzen können auf Nur Steam-PC umgestellt werden.",
-                                              "Der Startbefehl verwendet je nach Auswahl den geprüften ServerPlatform-Parameter.",
-                                              "Bestehende Konfigurationen bleiben standardmäßig auf Crossplay."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.1-beta.1",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-30T11:29:15.7675943+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.1/BlenkBase-0.7.1-beta.1-win-x64.zip",
-                         "sizeBytes":  341252322,
-                         "sha256":  "420268DE2B3C098DC962F1E65176F1C654F98BA8C7A7186C20ECDB292630DB78",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Erster geschlossener Beta-Gesamtstand.",
-                                              "Native Sprachserver-Verwaltung und stabiler Blenk-Voice-Vertrag.",
-                                              "Gehärtete TeamSpeak-6-, Bot- und Medienintegration.",
-                                              "Erweiterte Spielebibliothek einschließlich LS22 und LS25.",
-                                              "Verschlüsselte Notfallwiederherstellung.",
-                                              "Aktualisiertes Handbuch und Android-Kompatibilität."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.26",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-28T14:28:38.6486037+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.26/BlenkBase-0.7.0-preview.26-win-x64.zip",
-                         "sizeBytes":  341367206,
-                         "sha256":  "BE7291750576FC6FEA57EF91FC670627A068E14694B4AD6573D8012DE684C9F0",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Unterstuetzt gebuendelte blnk-Voice-Sprachpakete mit sicher geprueften ZIP-Eintraegen; alle bestehenden Sicherheitstests bleiben aktiv."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.25",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-25T16:54:36.7336431+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.25/BlenkBase-0.7.0-preview.25-win-x64.zip",
-                         "sizeBytes":  341367026,
-                         "sha256":  "F1A234624E7EF2AA2541E301C8F1A53EFA6A6D36840E7DAD55A9B42C6413163F",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Stabile native App-v1-API fuer Anmeldung, Profil, System, Einstellungen und Notfallwiederherstellung.;Native Sprachserver- und Instanzverwaltung ohne Legacy-Webrouten.;Mobiler Alertfeed fuer fehlgeschlagene Auftraege und kritische Instanzzustaende.;238 automatisierte Backendtests erfolgreich."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.24",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-25T06:32:48.4181005+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.24/BlenkBase-0.7.0-preview.24-win-x64.zip",
-                         "sizeBytes":  341258593,
-                         "sha256":  "B76211A29EC18B11191854087B6F28E679A0E986F04E7F40B53D800E80D8C801",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Lokale Ollama-KI wird nach Base-Neustarts automatisch wieder gestartet.",
-                                              "Ein 15-Sekunden-Waechter erkennt und repariert ausgefallene oder haengende Ollama-Prozesse.",
-                                              "Eine fehlerhafte optionale KI blockiert den Start des Voice-Servers nicht mehr."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.23",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-24T22:23:04.1523912+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.23/BlenkBase-0.7.0-preview.23-win-x64.zip",
-                         "sizeBytes":  341240554,
-                         "sha256":  "2CBAFE08FAB1F1A6806091F00258C167FA8B089A7978FBB48383BDE53216C10A",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Optionale lokale Ollama-KI direkt in blnk Base installieren und verwalten",
-                                              "KI-Modelle 2B, 4B und 9B je Voice-Instanz auswaehlen",
-                                              "blnk Voice Bot mit lokaler Konversation, Hilfe, Radio, YouTube und Twitch"
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.22",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-24T20:01:40.0327591+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.22/BlenkBase-0.7.0-preview.22-win-x64.zip",
-                         "sizeBytes":  341225985,
-                         "sha256":  "0CC1C4F61EA442005A727E14FD2CF1E8273332C1F8CA5F1575033D60E1FC4E1F",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Systembackup konsolidiert TeamSpeak- und Manager-SQLite-Datenbanken samt WAL-Dateien vor der VerschlÃ¼sselung.",
-                                              "VSS-Snapshotpfade werden nicht mehr direkt durch SQLite geÃ¶ffnet.",
-                                              "Die OberflÃ¤che zeigt bei einem Backupfehler kÃ¼nftig die konkrete Ursache statt einer allgemeinen englischen Fehlermeldung.",
-                                              "208 automatisierte Tests und der vollstÃ¤ndige Backup-/Restore-Test wurden erfolgreich ausgefÃ¼hrt."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.21",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-24T19:28:10.4789129+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.21/BlenkBase-0.7.0-preview.21-win-x64.zip",
-                         "sizeBytes":  341224786,
-                         "sha256":  "556BB451AD5A5F8FC9DF6901FB35791AF614E66A496CC8AEB552BABFC9D8E983",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Systembackups verwenden Windows-VSS und sichern laufende Spiel- und Sprachserver ohne Unterbrechung.",
-                                              "Gesperrte Dateien und Bytebereichssperren blockieren das verschlÃƒÂ¼sselte Notfallbackup nicht mehr.",
-                                              "SQLite-Datenbanken, SpielstÃƒÂ¤nde, Konfigurationen, TeamSpeak-IdentitÃƒÂ¤ten und native Voice-Daten werden konsistent aus dem Live-Snapshot gesichert.",
-                                              "Der vollstÃƒÂ¤ndige Sicherungs-, IntegritÃƒÂ¤ts- und Wiederherstellungstest wurde erfolgreich ausgefÃƒÂ¼hrt."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.20",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-24T18:16:20.3832795+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.20/BlenkBase-0.7.0-preview.20-win-x64.zip",
-                         "sizeBytes":  341236462,
-                         "sha256":  "3C28777DD14BFF627AA7CFE7058EDBA8EAADC0F449F510DE8E8069C5672CE5B1",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "VerschlÃ¼sselte Notfallwiederherstellung fÃ¼r eine vollstÃ¤ndige blnk-Base-Installation.",
-                                              "Lokale Sicherungsziele einschlieÃŸlich separater Laufwerke und SMB/UNC-Pfade sowie optionale SFTP-Spiegelung.",
-                                              "Wiederherstellungsassistent direkt nach einer Neuinstallation mit IntegritÃ¤tsprÃ¼fung vor dem Restore.",
-                                              "Sichert Datenbank, Benutzer, Instanzen, Ports, Katalog, ZeitplÃ¤ne, SpielstÃ¤nde, Konfigurationen, TeamSpeak-IdentitÃ¤ten und Blenk-Voice-Zertifikate.",
-                                              "Fehlende Serverprogramme werden nach der Wiederherstellung kontrolliert erneut heruntergeladen; Instanzen bleiben zunÃ¤chst gestoppt."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.19",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-23T15:56:11.7331367+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.19/BlenkBase-0.7.0-preview.19-win-x64.zip",
-                         "sizeBytes":  338438791,
-                         "sha256":  "0B2EE4FBB347810684C6E7CB6D7A3E95505C9E3BD8D62105F55C8D8534AB0F42",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Behebt die grosse leere Scrollflaeche unterhalb des Instanz-Dashboards.",
-                                              "Instanzkarten werden auf Desktop-Bildschirmen als festes 4er-Raster ohne horizontales Scrollen dargestellt."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.18",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-23T13:34:51.8768184+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.18/BlenkBase-0.7.0-preview.18-win-x64.zip",
-                         "sizeBytes":  338438892,
-                         "sha256":  "D5EB68B3CA596DAADF4445E7608B76E56FE21C18811C569B3382A2F1D08ED52B",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Dashboard auf Ultrawide und 4K korrigiert; Instanzkarten zeigen Bilder, Status, Kennzahlen und Aktionen wieder vollstaendig."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.17",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-23T01:23:45.4712565+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.17/BlenkBase-0.7.0-preview.17-win-x64.zip",
-                         "sizeBytes":  338438757,
-                         "sha256":  "C36A98551419F133C3699C074E670E03CBAF390A68373A4DA48D8D8FFEA94657",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Serverweite Kanalbilder, Profilabgleich und versionierte Raumstruktur-Sicherungen inklusive Sicherheitsbackup sowie Wiederherstellung."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.16",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-22T18:59:48.8776381+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.16/BlenkBase-0.7.0-preview.16-win-x64.zip",
-                         "sizeBytes":  338431377,
-                         "sha256":  "EA2E6E1B0F80E0B7E6BAEF5A8DF31C65079AA1154A314F996D7F62A856A802E8",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Neues blnk - Base Dashboard exakt nach der freigegebenen Serverzentrale-Vorlage.",
-                                              "Ãœbersichtliche Instanzkarten mit groÃŸem Spielmotiv und kompakten Aktionen.",
-                                              "Instanzeinstellungen bleiben vollstÃ¤ndig Ã¼ber das Drei-Punkte-MenÃ¼ erreichbar.",
-                                              "Ãœberarbeitete Serverwelt, Statusleiste, AktivitÃ¤ten und Schnellaktionen.",
-                                              "Neue blnk-Markenkennzeichnung und aktualisierte Versionsanzeige."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.15",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-21T19:24:47.4285280+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.15/BlenkBase-0.7.0-preview.15-win-x64.zip",
-                         "sizeBytes":  338426502,
-                         "sha256":  "24DD7DC1C91B0E6F28C838A32E8802817DA668BF74C407528D52BD9CB6C4C43E",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Neue Dachmarke: blnk - Base",
-                                              "Bestehende Installationen und UpdatekanÃ¤le bleiben kompatibel."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.14",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-21T02:13:38.0678359+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.14/BlenkBase-0.7.0-preview.14-win-x64.zip",
-                         "sizeBytes":  338414969,
-                         "sha256":  "625A710DA99AE21D2317265A0A3BCF30EF97B2699616FA409491298EE9908A36",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Besitzerkonto nach Altdatenreparatur direkt in Blenk Base anlegen",
-                                              "E-Mail-Adresse, Anzeigename und Kennwort aller Voice-Konten direkt bearbeiten",
-                                              "Lokale BesitzeridentitÃ¤t in ein vollstÃ¤ndiges Serverkonto umwandeln",
-                                              "Kompatibel mit Blenk Voice Server 0.5.5"
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.13",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-20T20:07:17.6004040+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.13/BlenkBase-0.7.0-preview.13-win-x64.zip",
-                         "sizeBytes":  338414149,
-                         "sha256":  "A8CBE65F84AD85FB31874CC61B615054DD5AF31B388CF9914BBD8F08B2F150A3",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Konkreter Startfehler der Blenk-Voice-Runtime statt nur des Exitcodes",
-                                              "Eindeutiger Status nach fehlgeschlagenen Serveraktionen"
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.12",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-20T19:32:07.3883091+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.12/BlenkBase-0.7.0-preview.12-win-x64.zip",
-                         "sizeBytes":  338413927,
-                         "sha256":  "B3F573DEB0EEA942A09368ED6577955C7151B8A67F4C2BB36281CCAA5A4C889B",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Voice-Server-Updates und StartvorgÃ¤nge laufen unabhÃ¤ngig von der Browseranfrage im Hintergrund weiter",
-                                              "Kein Abbruch mehr durch Failed to fetch oder getrennte Browseranfragen",
-                                              "Sichtbarer Fortschritt und zuverlÃ¤ssige Statusabfrage bis zum Abschluss",
-                                              "Kompatibel mit Blenk Voice Server 0.5.2"
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.11",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-20T17:54:25.9387769+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.11/BlenkBase-0.7.0-preview.11-win-x64.zip",
-                         "sizeBytes":  338410010,
-                         "sha256":  "A9389BF1CDBFE70E94A263BED943E58866FA5D4BBCD70894FB5B6426568B36AA",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Behebt Doppelstarts und Exitcode 3 bei erreichbaren Voice-Servern 0.4.x",
-                                              "Altserver ohne Prozess-ID werden vor Updates kontrolliert beendet",
-                                              "BesitzeridentitÃƒÂ¤ten erscheinen geschÃƒÂ¼tzt in der Kontenverwaltung",
-                                              "Kompatibel mit Blenk Voice Server 0.5.1"
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.10",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-20T17:09:30.8026358+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.10/BlenkBase-0.7.0-preview.10-win-x64.zip",
-                         "sizeBytes":  338408314,
-                         "sha256":  "0E362CCAB2C42B67DBC996F33C6035EBDCA0E242F21B211270BBCA049141E113",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Blenk-Voice-Konten direkt in der Sprachserver-Zentrale verwalten,Laufende Voice-Server werden nach einem Base-Neustart korrekt wiedererkannt,Kompatibel mit Blenk Voice Server 0.5.0 und Clientprotokoll 13"
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.9",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-20T15:18:05.8660040+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.9/BlenkBase-0.7.0-preview.9-win-x64.zip",
-                         "sizeBytes":  338401936,
-                         "sha256":  "7FEDD305BAA5433BD3D911B8A8808FD84B5A5F15B6927524345047EDEDE00F1C",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Sprachinstanzen installieren signierte Serverupdates automatisch vor dem Start; manueller Update- und Rollbackpfad bleiben erhalten."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.8",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-20T11:02:44.5643545+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.8/BlenkBase-0.7.0-preview.8-win-x64.zip",
-                         "sizeBytes":  338400333,
-                         "sha256":  "89EB3875CCDC5081387DAC4F2447F13FD90C2AD2FD758374404FB7D855BA4330",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "Besitzer- und allgemeine Join-Links direkt in Blenk Base kopieren; Verbindungsdatei bleibt als Fallback."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.7",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-19T18:30:26.1821377+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.7/BlenkBase-0.7.0-preview.7-win-x64.zip",
-                         "sizeBytes":  338396880,
-                         "sha256":  "6EA6007A7EAB36639FD4624E558B7BA90CE12DFC591385AC11CFDE96CF67888D",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "LS22 und LS25 wechseln einen belegten Spielstand-Slot nicht mehr automatisch.",
-                                              "Kartenwechsel erfordern bei belegtem Spielstand ausdrÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼cklich einen freien Ziel-Slot.",
-                                              "GIANTS-Sicherungen unter profile\\savegameBackup werden in BlenkBase-Backups aufgenommen."
-                                          ]
-                     },
-                     {
-                         "version":  "0.7.0-preview.4",
-                         "channel":  "beta",
-                         "publishedAtUtc":  "2026-07-19T15:44:28.9322850+00:00",
-                         "packageUrl":  "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.4/BlenkBase-0.7.0-preview.4-win-x64.zip",
-                         "sizeBytes":  338358442,
-                         "sha256":  "137D4AA081199B01511750467F4A89D0936034298117D12E50D9455829860F9E",
-                         "minimumVersion":  "0.7.0-preview.1",
-                         "mandatory":  false,
-                         "releaseNotes":  [
-                                              "ARK: Survival Ascended besitzt jetzt eine eigene CurseForge-Modverwaltung.",
-                                              "Mod-Projekt-IDs kÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¶nnen geordnet hinzugefÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼gt, entfernt und gespeichert werden.",
-                                              "Lokale ASA-Moddateien und fehlende Downloads werden in der OberflÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤che angezeigt.",
-                                              "Mods prÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼fen und Server starten aktualisiert zuerst den Server und lÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤sst ASA anschlieÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¸end alle konfigurierten Mods laden oder aktualisieren.",
-                                              "Der Serverstart und die Live-Konsole zeigen den Mod-PrÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼fstatus verstÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤ndlich an.",
-                                              "Die bestehende TeamSpeak-6- und Blenk-Voice-Integration bleibt unverÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤ndert erhalten."
-                                          ]
-                     }
-                 ]
+  "schemaVersion": 1,
+  "product": "BlenkBase",
+  "generatedAtUtc": "2026-08-14T20:24:06.5452600+00:00",
+  "releases": [
+    {
+      "version": "0.7.1-beta.11",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-14T20:24:06.5288968+00:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.11/BlenkBase-0.7.1-beta.11-win-x64.zip",
+      "sizeBytes": 349273976,
+      "sha256": "BF041C2CDF3C26099A86196A2D9EA714B533DBCD38200E292B93F6A52259DB7F",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Instanzen lassen sich wieder klonen, auch wenn die Provisionierung bereits Standardkonfigurationen wie ASA Game.ini erzeugt.",
+        "Beim Klonen sind die Dateien der Quellinstanz maßgeblich; neu vergebene Ports werden anschließend sicher synchronisiert.",
+        "Fehlgeschlagene Klonvorgänge räumen Datenbankeintrag und Zielordner weiterhin vollständig auf."
+      ]
+    },
+    {
+      "version": "0.7.1-beta.10",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-13T18:11:20.238489+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.10/BlenkBase-0.7.1-beta.10-win-x64.zip",
+      "sizeBytes": 342997965,
+      "sha256": "63378FD0AC06986E4CBFDD25963A6B607AC45200207637A17ED5A83033E8048E",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Neue Dienste-Zentrale für verwaltete blnk-Anwendungsserver mit Start, Stopp, Status, Konfiguration und Backup.",
+        "ARK ASA und ARK Survival Evolved übernehmen über den Dateimanager oder lokal ersetzte Konfigurationsdateien als neuen gewünschten Stand.",
+        "Vorhandene manuelle und unbekannte ARK-Konfigurationswerte bleiben bei Start, Update und Wiederherstellung erhalten.",
+        "Dateimanager-Änderungen, lokal kopierte Dateien und die ARK-Schutzkopie werden konsistent abgestimmt.",
+        "SSH.NET wurde auf die abgesicherte Version 2026.0.0 aktualisiert."
+      ]
+    },
+    {
+      "version": "0.7.1-beta.9",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-10T18:19:17.1663999+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.9/BlenkBase-0.7.1-beta.9-win-x64.zip",
+      "sizeBytes": 342340480,
+      "sha256": "3C668A8555EA2607EA067A0F6325BA538D1CACCD9F3D2DC8050F30BA673E604B",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Desktop-Steam-Installationen werden nach Updates gegen die tatsächliche Steam-Bibliothek statt gegen den Instanzordner geprüft."
+      ]
+    },
+    {
+      "version": "0.7.1-beta.8",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-07T18:29:16.2979641+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.8/BlenkBase-0.7.1-beta.8-win-x64.zip",
+      "sizeBytes": 342337650,
+      "sha256": "609B9B8A2FCA714CA132F391EE5E2253CE6EF3FE1A1A57A30081DFE955FD1195",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Counter-Strike 2 wird mit IPv6- und Dual-Stack-Portbindungen korrekt als online erkannt.",
+        "CS2-RCON-Kennwort, sicherer RCON-Stopp, Mapgruppe und optionaler GSLT sind vollständig integriert.",
+        "Die wiederholte CS2-Windows-Konsolenmeldung wird aus der Live-Konsole gefiltert.",
+        "SteamCMD-Installation, echter Prozessstart, Portstatus und A2S-Abfrage wurden erfolgreich geprüft."
+      ]
+    },
+    {
+      "version": "0.7.1-beta.7",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-02T13:27:27.3092691+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.7/BlenkBase-0.7.1-beta.7-win-x64.zip",
+      "sizeBytes": 341355056,
+      "sha256": "61DEA64A35B01BBB59C536AB9A68C86EF61CEDA01710512F8CC94243E9AF1132",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Lokale Bibliotheksbilder für Windrose, TeamSpeak 6 und Minecraft Java",
+        "blnk Voice Server als native installierbare Bibliothekskarte",
+        "Robuste Bildzuordnung auch bei älteren Online-Katalogdefinitionen"
+      ]
+    },
+    {
+      "version": "0.7.1-beta.6",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-02T12:39:44.3607461+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.6/BlenkBase-0.7.1-beta.6-win-x64.zip",
+      "sizeBytes": 341352395,
+      "sha256": "70B220299E1339FE9CD63F7FFF0F86112605659A82CB46AA39CFED8C481A7F72",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Spielebibliothek auf 50 Serverdefinitionen erweitert",
+        "16 neue Steam-Dedicated-Server mit deutschen Konfigurationsfeldern ergänzt",
+        "Steam-Metadaten, Katalogverträge und Konfigurationsgenerierung vollständig geprüft",
+        "Killing Floor verlangt nun korrekt ein berechtigtes Steam-Konto",
+        "Katalog-Audit und maschinenlesbare Installationsnachweise aktualisiert"
+      ]
+    },
+    {
+      "version": "0.7.1-beta.5",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-01T21:30:44.8456023+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.5/BlenkBase-0.7.1-beta.5-win-x64.zip",
+      "sizeBytes": 341323910,
+      "sha256": "CE8E110A7E1229758F0DBB29A2CE3756C9E4EB9CD13E78DC30E7FA3D6BF524C2",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "TeamSpeak-6-Instanzen lassen sich in der Sprachserver-Zentrale wieder starten, sicher stoppen, not-stoppen und aktualisieren.",
+        "Status und WebQuery-Erreichbarkeit werden nach Lebenszyklusaktionen automatisch neu geladen.",
+        "Regressionstests schützen die spezialisierte Sprachserver-Steuerung vor generischen Game-Server-Routen."
+      ]
+    },
+    {
+      "version": "0.7.1-beta.4",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-01T09:20:31.9603018+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.4/BlenkBase-0.7.1-beta.4-win-x64.zip",
+      "sizeBytes": 341306424,
+      "sha256": "F45CF93738AA928371DC55C8465F83B3D0673EB99C46C408DEA2319AD78F777C",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Alle unterstützten Spiele erhalten erweiterte, deutsch beschriebene Servereinstellungen in sinnvollen Gruppen.",
+        "Neue generische Konfigurationsformate für JSON-Pointer, XML-Eigenschaften und DayZ-CFG.",
+        "Startparameter können Einstellungswerte sicher übernehmen; leere optionale Parameter werden ausgelassen.",
+        "Bestehende manuelle Werte bleiben erhalten und können über die Expertenansicht weiter gepflegt werden."
+      ]
+    },
+    {
+      "version": "0.7.1-beta.3",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-31T19:10:09.1506242+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.3/BlenkBase-0.7.1-beta.3-win-x64.zip",
+      "sizeBytes": 341304826,
+      "sha256": "CEBB9542F8404C0E97E6B36D3F92A9D5A8CC453AF03350E37C84BF26D684A80E",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Vollständige ASA-Spieler- und Kreaturen-Statistikreihen im Webinterface.",
+        "Manuelle, unbekannte INI-Werte bleiben sichtbar und speicherbar.",
+        "ASA-Wunschwerte werden nach spielseitigem Überschreiben wiederhergestellt."
+      ]
+    },
+    {
+      "version": "0.7.1-beta.2",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-30T21:52:28.0768827+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.2/BlenkBase-0.7.1-beta.2-win-x64.zip",
+      "sizeBytes": 341297092,
+      "sha256": "8A9E982397B0302E9EA6C3FC1F839341043DCB86901AA0C2B371FB5AE326E86C",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "ARK: Survival Ascended erhält eine Plattformauswahl in der Startkonfiguration.",
+        "Bestehende ASA-Instanzen können auf Nur Steam-PC umgestellt werden.",
+        "Der Startbefehl verwendet je nach Auswahl den geprüften ServerPlatform-Parameter.",
+        "Bestehende Konfigurationen bleiben standardmäßig auf Crossplay."
+      ]
+    },
+    {
+      "version": "0.7.1-beta.1",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-30T13:29:15.7675943+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.1/BlenkBase-0.7.1-beta.1-win-x64.zip",
+      "sizeBytes": 341252322,
+      "sha256": "420268DE2B3C098DC962F1E65176F1C654F98BA8C7A7186C20ECDB292630DB78",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Erster geschlossener Beta-Gesamtstand.",
+        "Native Sprachserver-Verwaltung und stabiler Blenk-Voice-Vertrag.",
+        "Gehärtete TeamSpeak-6-, Bot- und Medienintegration.",
+        "Erweiterte Spielebibliothek einschließlich LS22 und LS25.",
+        "Verschlüsselte Notfallwiederherstellung.",
+        "Aktualisiertes Handbuch und Android-Kompatibilität."
+      ]
+    },
+    {
+      "version": "0.7.0-preview.26",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-28T16:28:38.6486037+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.26/BlenkBase-0.7.0-preview.26-win-x64.zip",
+      "sizeBytes": 341367206,
+      "sha256": "BE7291750576FC6FEA57EF91FC670627A068E14694B4AD6573D8012DE684C9F0",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Unterstuetzt gebuendelte blnk-Voice-Sprachpakete mit sicher geprueften ZIP-Eintraegen; alle bestehenden Sicherheitstests bleiben aktiv."
+      ]
+    },
+    {
+      "version": "0.7.0-preview.25",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-25T18:54:36.7336431+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.25/BlenkBase-0.7.0-preview.25-win-x64.zip",
+      "sizeBytes": 341367026,
+      "sha256": "F1A234624E7EF2AA2541E301C8F1A53EFA6A6D36840E7DAD55A9B42C6413163F",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Stabile native App-v1-API fuer Anmeldung, Profil, System, Einstellungen und Notfallwiederherstellung.;Native Sprachserver- und Instanzverwaltung ohne Legacy-Webrouten.;Mobiler Alertfeed fuer fehlgeschlagene Auftraege und kritische Instanzzustaende.;238 automatisierte Backendtests erfolgreich."
+      ]
+    },
+    {
+      "version": "0.7.0-preview.24",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-25T08:32:48.4181005+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.24/BlenkBase-0.7.0-preview.24-win-x64.zip",
+      "sizeBytes": 341258593,
+      "sha256": "B76211A29EC18B11191854087B6F28E679A0E986F04E7F40B53D800E80D8C801",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Lokale Ollama-KI wird nach Base-Neustarts automatisch wieder gestartet.",
+        "Ein 15-Sekunden-Waechter erkennt und repariert ausgefallene oder haengende Ollama-Prozesse.",
+        "Eine fehlerhafte optionale KI blockiert den Start des Voice-Servers nicht mehr."
+      ]
+    },
+    {
+      "version": "0.7.0-preview.23",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-25T00:23:04.1523912+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.23/BlenkBase-0.7.0-preview.23-win-x64.zip",
+      "sizeBytes": 341240554,
+      "sha256": "2CBAFE08FAB1F1A6806091F00258C167FA8B089A7978FBB48383BDE53216C10A",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Optionale lokale Ollama-KI direkt in blnk Base installieren und verwalten",
+        "KI-Modelle 2B, 4B und 9B je Voice-Instanz auswaehlen",
+        "blnk Voice Bot mit lokaler Konversation, Hilfe, Radio, YouTube und Twitch"
+      ]
+    },
+    {
+      "version": "0.7.0-preview.22",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-24T22:01:40.0327591+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.22/BlenkBase-0.7.0-preview.22-win-x64.zip",
+      "sizeBytes": 341225985,
+      "sha256": "0CC1C4F61EA442005A727E14FD2CF1E8273332C1F8CA5F1575033D60E1FC4E1F",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Systembackup konsolidiert TeamSpeak- und Manager-SQLite-Datenbanken samt WAL-Dateien vor der VerschlÃ¼sselung.",
+        "VSS-Snapshotpfade werden nicht mehr direkt durch SQLite geÃ¶ffnet.",
+        "Die OberflÃ¤che zeigt bei einem Backupfehler kÃ¼nftig die konkrete Ursache statt einer allgemeinen englischen Fehlermeldung.",
+        "208 automatisierte Tests und der vollstÃ¤ndige Backup-/Restore-Test wurden erfolgreich ausgefÃ¼hrt."
+      ]
+    },
+    {
+      "version": "0.7.0-preview.21",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-24T21:28:10.4789129+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.21/BlenkBase-0.7.0-preview.21-win-x64.zip",
+      "sizeBytes": 341224786,
+      "sha256": "556BB451AD5A5F8FC9DF6901FB35791AF614E66A496CC8AEB552BABFC9D8E983",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Systembackups verwenden Windows-VSS und sichern laufende Spiel- und Sprachserver ohne Unterbrechung.",
+        "Gesperrte Dateien und Bytebereichssperren blockieren das verschlÃƒÂ¼sselte Notfallbackup nicht mehr.",
+        "SQLite-Datenbanken, SpielstÃƒÂ¤nde, Konfigurationen, TeamSpeak-IdentitÃƒÂ¤ten und native Voice-Daten werden konsistent aus dem Live-Snapshot gesichert.",
+        "Der vollstÃƒÂ¤ndige Sicherungs-, IntegritÃƒÂ¤ts- und Wiederherstellungstest wurde erfolgreich ausgefÃƒÂ¼hrt."
+      ]
+    },
+    {
+      "version": "0.7.0-preview.20",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-24T20:16:20.3832795+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.20/BlenkBase-0.7.0-preview.20-win-x64.zip",
+      "sizeBytes": 341236462,
+      "sha256": "3C28777DD14BFF627AA7CFE7058EDBA8EAADC0F449F510DE8E8069C5672CE5B1",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "VerschlÃ¼sselte Notfallwiederherstellung fÃ¼r eine vollstÃ¤ndige blnk-Base-Installation.",
+        "Lokale Sicherungsziele einschlieÃŸlich separater Laufwerke und SMB/UNC-Pfade sowie optionale SFTP-Spiegelung.",
+        "Wiederherstellungsassistent direkt nach einer Neuinstallation mit IntegritÃ¤tsprÃ¼fung vor dem Restore.",
+        "Sichert Datenbank, Benutzer, Instanzen, Ports, Katalog, ZeitplÃ¤ne, SpielstÃ¤nde, Konfigurationen, TeamSpeak-IdentitÃ¤ten und Blenk-Voice-Zertifikate.",
+        "Fehlende Serverprogramme werden nach der Wiederherstellung kontrolliert erneut heruntergeladen; Instanzen bleiben zunÃ¤chst gestoppt."
+      ]
+    },
+    {
+      "version": "0.7.0-preview.19",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-23T17:56:11.7331367+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.19/BlenkBase-0.7.0-preview.19-win-x64.zip",
+      "sizeBytes": 338438791,
+      "sha256": "0B2EE4FBB347810684C6E7CB6D7A3E95505C9E3BD8D62105F55C8D8534AB0F42",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Behebt die grosse leere Scrollflaeche unterhalb des Instanz-Dashboards.",
+        "Instanzkarten werden auf Desktop-Bildschirmen als festes 4er-Raster ohne horizontales Scrollen dargestellt."
+      ]
+    },
+    {
+      "version": "0.7.0-preview.18",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-23T15:34:51.8768184+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.18/BlenkBase-0.7.0-preview.18-win-x64.zip",
+      "sizeBytes": 338438892,
+      "sha256": "D5EB68B3CA596DAADF4445E7608B76E56FE21C18811C569B3382A2F1D08ED52B",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Dashboard auf Ultrawide und 4K korrigiert; Instanzkarten zeigen Bilder, Status, Kennzahlen und Aktionen wieder vollstaendig."
+      ]
+    },
+    {
+      "version": "0.7.0-preview.17",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-23T03:23:45.4712565+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.17/BlenkBase-0.7.0-preview.17-win-x64.zip",
+      "sizeBytes": 338438757,
+      "sha256": "C36A98551419F133C3699C074E670E03CBAF390A68373A4DA48D8D8FFEA94657",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Serverweite Kanalbilder, Profilabgleich und versionierte Raumstruktur-Sicherungen inklusive Sicherheitsbackup sowie Wiederherstellung."
+      ]
+    },
+    {
+      "version": "0.7.0-preview.16",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-22T20:59:48.8776381+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.16/BlenkBase-0.7.0-preview.16-win-x64.zip",
+      "sizeBytes": 338431377,
+      "sha256": "EA2E6E1B0F80E0B7E6BAEF5A8DF31C65079AA1154A314F996D7F62A856A802E8",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Neues blnk - Base Dashboard exakt nach der freigegebenen Serverzentrale-Vorlage.",
+        "Ãœbersichtliche Instanzkarten mit groÃŸem Spielmotiv und kompakten Aktionen.",
+        "Instanzeinstellungen bleiben vollstÃ¤ndig Ã¼ber das Drei-Punkte-MenÃ¼ erreichbar.",
+        "Ãœberarbeitete Serverwelt, Statusleiste, AktivitÃ¤ten und Schnellaktionen.",
+        "Neue blnk-Markenkennzeichnung und aktualisierte Versionsanzeige."
+      ]
+    },
+    {
+      "version": "0.7.0-preview.15",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-21T21:24:47.428528+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.15/BlenkBase-0.7.0-preview.15-win-x64.zip",
+      "sizeBytes": 338426502,
+      "sha256": "24DD7DC1C91B0E6F28C838A32E8802817DA668BF74C407528D52BD9CB6C4C43E",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Neue Dachmarke: blnk - Base",
+        "Bestehende Installationen und UpdatekanÃ¤le bleiben kompatibel."
+      ]
+    },
+    {
+      "version": "0.7.0-preview.14",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-21T04:13:38.0678359+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.14/BlenkBase-0.7.0-preview.14-win-x64.zip",
+      "sizeBytes": 338414969,
+      "sha256": "625A710DA99AE21D2317265A0A3BCF30EF97B2699616FA409491298EE9908A36",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Besitzerkonto nach Altdatenreparatur direkt in Blenk Base anlegen",
+        "E-Mail-Adresse, Anzeigename und Kennwort aller Voice-Konten direkt bearbeiten",
+        "Lokale BesitzeridentitÃ¤t in ein vollstÃ¤ndiges Serverkonto umwandeln",
+        "Kompatibel mit Blenk Voice Server 0.5.5"
+      ]
+    },
+    {
+      "version": "0.7.0-preview.13",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-20T22:07:17.600404+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.13/BlenkBase-0.7.0-preview.13-win-x64.zip",
+      "sizeBytes": 338414149,
+      "sha256": "A8CBE65F84AD85FB31874CC61B615054DD5AF31B388CF9914BBD8F08B2F150A3",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Konkreter Startfehler der Blenk-Voice-Runtime statt nur des Exitcodes",
+        "Eindeutiger Status nach fehlgeschlagenen Serveraktionen"
+      ]
+    },
+    {
+      "version": "0.7.0-preview.12",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-20T21:32:07.3883091+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.12/BlenkBase-0.7.0-preview.12-win-x64.zip",
+      "sizeBytes": 338413927,
+      "sha256": "B3F573DEB0EEA942A09368ED6577955C7151B8A67F4C2BB36281CCAA5A4C889B",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Voice-Server-Updates und StartvorgÃ¤nge laufen unabhÃ¤ngig von der Browseranfrage im Hintergrund weiter",
+        "Kein Abbruch mehr durch Failed to fetch oder getrennte Browseranfragen",
+        "Sichtbarer Fortschritt und zuverlÃ¤ssige Statusabfrage bis zum Abschluss",
+        "Kompatibel mit Blenk Voice Server 0.5.2"
+      ]
+    },
+    {
+      "version": "0.7.0-preview.11",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-20T19:54:25.9387769+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.11/BlenkBase-0.7.0-preview.11-win-x64.zip",
+      "sizeBytes": 338410010,
+      "sha256": "A9389BF1CDBFE70E94A263BED943E58866FA5D4BBCD70894FB5B6426568B36AA",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Behebt Doppelstarts und Exitcode 3 bei erreichbaren Voice-Servern 0.4.x",
+        "Altserver ohne Prozess-ID werden vor Updates kontrolliert beendet",
+        "BesitzeridentitÃƒÂ¤ten erscheinen geschÃƒÂ¼tzt in der Kontenverwaltung",
+        "Kompatibel mit Blenk Voice Server 0.5.1"
+      ]
+    },
+    {
+      "version": "0.7.0-preview.10",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-20T19:09:30.8026358+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.10/BlenkBase-0.7.0-preview.10-win-x64.zip",
+      "sizeBytes": 338408314,
+      "sha256": "0E362CCAB2C42B67DBC996F33C6035EBDCA0E242F21B211270BBCA049141E113",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Blenk-Voice-Konten direkt in der Sprachserver-Zentrale verwalten,Laufende Voice-Server werden nach einem Base-Neustart korrekt wiedererkannt,Kompatibel mit Blenk Voice Server 0.5.0 und Clientprotokoll 13"
+      ]
+    },
+    {
+      "version": "0.7.0-preview.9",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-20T17:18:05.866004+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.9/BlenkBase-0.7.0-preview.9-win-x64.zip",
+      "sizeBytes": 338401936,
+      "sha256": "7FEDD305BAA5433BD3D911B8A8808FD84B5A5F15B6927524345047EDEDE00F1C",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Sprachinstanzen installieren signierte Serverupdates automatisch vor dem Start; manueller Update- und Rollbackpfad bleiben erhalten."
+      ]
+    },
+    {
+      "version": "0.7.0-preview.8",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-20T13:02:44.5643545+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.8/BlenkBase-0.7.0-preview.8-win-x64.zip",
+      "sizeBytes": 338400333,
+      "sha256": "89EB3875CCDC5081387DAC4F2447F13FD90C2AD2FD758374404FB7D855BA4330",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Besitzer- und allgemeine Join-Links direkt in Blenk Base kopieren; Verbindungsdatei bleibt als Fallback."
+      ]
+    },
+    {
+      "version": "0.7.0-preview.7",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-19T20:30:26.1821377+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.7/BlenkBase-0.7.0-preview.7-win-x64.zip",
+      "sizeBytes": 338396880,
+      "sha256": "6EA6007A7EAB36639FD4624E558B7BA90CE12DFC591385AC11CFDE96CF67888D",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "LS22 und LS25 wechseln einen belegten Spielstand-Slot nicht mehr automatisch.",
+        "Kartenwechsel erfordern bei belegtem Spielstand ausdrÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼cklich einen freien Ziel-Slot.",
+        "GIANTS-Sicherungen unter profile\\savegameBackup werden in BlenkBase-Backups aufgenommen."
+      ]
+    },
+    {
+      "version": "0.7.0-preview.4",
+      "channel": "beta",
+      "publishedAtUtc": "2026-07-19T17:44:28.932285+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.0-preview.4/BlenkBase-0.7.0-preview.4-win-x64.zip",
+      "sizeBytes": 338358442,
+      "sha256": "137D4AA081199B01511750467F4A89D0936034298117D12E50D9455829860F9E",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "ARK: Survival Ascended besitzt jetzt eine eigene CurseForge-Modverwaltung.",
+        "Mod-Projekt-IDs kÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¶nnen geordnet hinzugefÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼gt, entfernt und gespeichert werden.",
+        "Lokale ASA-Moddateien und fehlende Downloads werden in der OberflÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤che angezeigt.",
+        "Mods prÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼fen und Server starten aktualisiert zuerst den Server und lÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤sst ASA anschlieÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¸end alle konfigurierten Mods laden oder aktualisieren.",
+        "Der Serverstart und die Live-Konsole zeigen den Mod-PrÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼fstatus verstÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤ndlich an.",
+        "Die bestehende TeamSpeak-6- und Blenk-Voice-Integration bleibt unverÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤ndert erhalten."
+      ]
+    }
+  ]
 }
