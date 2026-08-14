@@ -1,12 +1,29 @@
 {
   "schemaVersion": 1,
   "product": "BlenkBase",
-  "generatedAtUtc": "2026-08-14T20:24:06.5452600+00:00",
+  "generatedAtUtc": "2026-08-14T21:22:46.6474602+00:00",
   "releases": [
+    {
+      "version": "0.7.1-beta.12",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-14T21:22:46.6431415+00:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.12/BlenkBase-0.7.1-beta.12-win-x64.zip",
+      "sizeBytes": 349280523,
+      "sha256": "39F550154D900058ABC41E9F4B161CBD7CCF88BD093E0155F9DA5D0ABFDE2CA8",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Online-Updates funktionieren nun auch bei Installationen, in denen Programm- und Datenordner identisch sind.",
+        "Das neue Overlay-Verfahren ersetzt ausschließlich Programmdateien und schützt Datenbank, Spielserver, Spielstände, Schlüssel und Backups.",
+        "Update-Arbeitsdateien und Rollback-Sicherungen werden außerhalb des Programmordners abgelegt.",
+        "Frühe Validierungsfehler des Updatehelfers werden künftig als last-result.json protokolliert.",
+        "Instanzen lassen sich trotz bereits erzeugter Standardkonfigurationen wie ASA Game.ini zuverlässig klonen."
+      ]
+    },
     {
       "version": "0.7.1-beta.11",
       "channel": "beta",
-      "publishedAtUtc": "2026-08-14T20:24:06.5288968+00:00",
+      "publishedAtUtc": "2026-08-14T22:24:06.5288968+02:00",
       "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.11/BlenkBase-0.7.1-beta.11-win-x64.zip",
       "sizeBytes": 349273976,
       "sha256": "BF041C2CDF3C26099A86196A2D9EA714B533DBCD38200E292B93F6A52259DB7F",
