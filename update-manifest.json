@@ -1,8 +1,24 @@
 {
   "schemaVersion": 1,
   "product": "BlenkBase",
-  "generatedAtUtc": "2026-08-15T10:04:11.4578358+00:00",
+  "generatedAtUtc": "2026-08-15T20:44:12.5480013+00:00",
   "releases": [
+    {
+      "version": "0.7.1-beta.16",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-15T20:44:12.5435275+00:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.16/BlenkBase-0.7.1-beta.16-win-x64.zip",
+      "sizeBytes": 349336632,
+      "sha256": "C5874B0CB34CE98582DE69DA5AE531254EAB76DA983E3ADF067F3CB615E19C7B",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Selbst gehostetes LiveKit-WebRTC direkt im Livestream-Admin installieren und überwachen",
+        "Geschützte Zugangsdaten und automatische Übergabe an native blnk-Voice-Instanzen",
+        "SHA-256-geprüftes Windows-Paket, lokale Readiness-Prüfung und automatische Wiederherstellung",
+        "Caddy-, NAT- und Firewall-Vorgaben sichtbar im Admin"
+      ]
+    },
     {
       "version": "0.7.1-beta.15",
       "channel": "beta",
