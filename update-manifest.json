@@ -1,12 +1,28 @@
 {
   "schemaVersion": 1,
   "product": "BlenkBase",
-  "generatedAtUtc": "2026-08-15T07:52:20.6398595+00:00",
+  "generatedAtUtc": "2026-08-15T10:04:11.4578358+00:00",
   "releases": [
+    {
+      "version": "0.7.1-beta.15",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-15T10:04:11.4533590+00:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.15/BlenkBase-0.7.1-beta.15-win-x64.zip",
+      "sizeBytes": 349294702,
+      "sha256": "921A00760E8A67C969E8D95BB85C9DDF16260F1D44DEEF01E68093241057A814",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Automatische Hyper-V-Hostweiterleitung für alte, neue und geklonte Instanzen",
+        "Host-Agent-Verbindungstest und vollständiger Portabgleich in den Systemeinstellungen",
+        "Atomare Portänderungen mit Rückfall bei Firewall- oder NAT-Fehlern",
+        "Private Management-Ports bleiben von öffentlichen Weiterleitungen ausgeschlossen"
+      ]
+    },
     {
       "version": "0.7.1-beta.14",
       "channel": "beta",
-      "publishedAtUtc": "2026-08-15T07:52:20.6366442+00:00",
+      "publishedAtUtc": "2026-08-15T09:52:20.6366442+02:00",
       "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.14/BlenkBase-0.7.1-beta.14-win-x64.zip",
       "sizeBytes": 349285125,
       "sha256": "8521A0C10144999A8F71332B15CED08382389F2904BE4ED4AB8810777496FEAE",
