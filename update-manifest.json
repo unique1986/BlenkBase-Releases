@@ -1,12 +1,27 @@
 {
   "schemaVersion": 1,
   "product": "BlenkBase",
-  "generatedAtUtc": "2026-08-14T22:15:41.6882033+00:00",
+  "generatedAtUtc": "2026-08-15T07:52:20.6398595+00:00",
   "releases": [
+    {
+      "version": "0.7.1-beta.14",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-15T07:52:20.6366442+00:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.14/BlenkBase-0.7.1-beta.14-win-x64.zip",
+      "sizeBytes": 349285125,
+      "sha256": "8521A0C10144999A8F71332B15CED08382389F2904BE4ED4AB8810777496FEAE",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Windows-Firewallregeln werden auf deutschen Windows-Systemen zuverlässig angelegt.",
+        "Eine noch nicht vorhandene Firewallregel gilt beim ersten Abgleich nicht länger als Fehler.",
+        "Bestehende Instanzports werden nach dem Update automatisch erneut abgeglichen."
+      ]
+    },
     {
       "version": "0.7.1-beta.13",
       "channel": "beta",
-      "publishedAtUtc": "2026-08-14T22:15:41.6850844+00:00",
+      "publishedAtUtc": "2026-08-15T00:15:41.6850844+02:00",
       "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.13/BlenkBase-0.7.1-beta.13-win-x64.zip",
       "sizeBytes": 349285137,
       "sha256": "B47FF049B6ED589FA8FF77A0C5A1CBA294093968CC554DF31F182AF0DC3BAC16",
