@@ -1,8 +1,24 @@
 {
   "schemaVersion": 1,
   "product": "BlenkBase",
-  "generatedAtUtc": "2026-08-15T20:44:12.5480013+00:00",
+  "generatedAtUtc": "2026-08-16T08:33:37.0350643+00:00",
   "releases": [
+    {
+      "version": "0.7.1-beta.17",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-16T08:33:37.0318508+00:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.17/BlenkBase-0.7.1-beta.17-win-x64.zip",
+      "sizeBytes": 349353444,
+      "sha256": "85C691271381525FE39B89E6DEB20FD73189E9CEE46A2836BEAB6B9795BF6975",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Mehrere Windows-Hosts zentral auf der Seite Dienste verwalten",
+        "Separater HMAC-gesicherter Service Agent ohne Kopplung an Hyper-V-NAT",
+        "Hostfilter, Hoststatus und gruppierte Dienstkarten",
+        "DPAPI-geschützte COM-Managementtokens nur über eine exakte Dateifreigabeliste lesen"
+      ]
+    },
     {
       "version": "0.7.1-beta.16",
       "channel": "beta",
