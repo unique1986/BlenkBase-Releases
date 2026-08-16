@@ -1,12 +1,25 @@
 {
   "schemaVersion": 1,
   "product": "BlenkBase",
-  "generatedAtUtc": "2026-08-16T08:33:37.0350643+00:00",
+  "generatedAtUtc": "2026-08-16T15:15:56.9121019+00:00",
   "releases": [
+    {
+      "version": "0.7.1-beta.18",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-16T17:10:11.7570286+02:00",
+      "packageUrl": "https://github.com/Umfangreiche deutsche Bedrock-Servereinstellungen mit Reitern, Dropdowns, Ja/Nein und Standardwerten/releases/download/v0.7.1-beta.18/BlenkBase-0.7.1-beta.18-win-x64.zip",
+      "sizeBytes": 343286364,
+      "sha256": "28994105176ACAF6A6E31EE262B9D5527ECFF25F031456D16B821A636C3C3EA8",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Minecraft Bedrock Dedicated Server mit offizieller dynamischer Microsoft-Downloadquelle"
+      ]
+    },
     {
       "version": "0.7.1-beta.17",
       "channel": "beta",
-      "publishedAtUtc": "2026-08-16T08:33:37.0318508+00:00",
+      "publishedAtUtc": "2026-08-16T10:33:37.0318508+02:00",
       "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.17/BlenkBase-0.7.1-beta.17-win-x64.zip",
       "sizeBytes": 349353444,
       "sha256": "85C691271381525FE39B89E6DEB20FD73189E9CEE46A2836BEAB6B9795BF6975",
@@ -22,7 +35,7 @@
     {
       "version": "0.7.1-beta.16",
       "channel": "beta",
-      "publishedAtUtc": "2026-08-15T20:44:12.5435275+00:00",
+      "publishedAtUtc": "2026-08-15T22:44:12.5435275+02:00",
       "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.16/BlenkBase-0.7.1-beta.16-win-x64.zip",
       "sizeBytes": 349336632,
       "sha256": "C5874B0CB34CE98582DE69DA5AE531254EAB76DA983E3ADF067F3CB615E19C7B",
@@ -38,7 +51,7 @@
     {
       "version": "0.7.1-beta.15",
       "channel": "beta",
-      "publishedAtUtc": "2026-08-15T10:04:11.4533590+00:00",
+      "publishedAtUtc": "2026-08-15T12:04:11.453359+02:00",
       "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.15/BlenkBase-0.7.1-beta.15-win-x64.zip",
       "sizeBytes": 349294702,
       "sha256": "921A00760E8A67C969E8D95BB85C9DDF16260F1D44DEEF01E68093241057A814",
