@@ -1,8 +1,24 @@
 {
   "schemaVersion": 1,
   "product": "BlenkBase",
-  "generatedAtUtc": "2026-08-18T20:00:06.8986144+00:00",
+  "generatedAtUtc": "2026-08-18T22:20:14.4453388+02:00",
   "releases": [
+    {
+      "version": "0.7.1-beta.22",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-18T22:20:14.439504+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.22/BlenkBase-0.7.1-beta.22-win-x64.zip",
+      "sizeBytes": 349677385,
+      "sha256": "C7E0B0CDF086E9660040302E4EB5267F0C9ABE40D2B67B743A89A801B80AE73B",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Kartenbreite auf hoch skalierten PC-Displays kompakt begrenzt",
+        "Status, Aktionen und Ressourcenwerte deutlich besser lesbar",
+        "Favoriten- und Instanzraster bleiben sauber zentriert",
+        "Alle übrigen Dashboard-Bereiche bleiben unverändert"
+      ]
+    },
     {
       "version": "0.7.1-beta.21",
       "channel": "beta",
