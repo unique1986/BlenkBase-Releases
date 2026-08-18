@@ -1,8 +1,24 @@
 {
   "schemaVersion": 1,
   "product": "BlenkBase",
-  "generatedAtUtc": "2026-08-18T22:20:14.4453388+02:00",
+  "generatedAtUtc": "2026-08-18T21:20:09.0199746+00:00",
   "releases": [
+    {
+      "version": "0.7.1-beta.23",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-18T21:20:09.0169061+00:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.23/BlenkBase-0.7.1-beta.23-win-x64.zip",
+      "sizeBytes": 350532993,
+      "sha256": "2BD24AF3D9EC0B8D575FE076E147CFEB8E4D7E6C21CFB84A684BD3E3DACF6A63",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Kompakte Kartenbreiten auf großen Bildschirmen",
+        "Echte Banner für Minecraft Bedrock und Wortwelten",
+        "Geschützte App-Funktionen für Dienste, Updates, Benachrichtigungen, Wartung, Zeitpläne und Mods",
+        "Android-App auf den aktuellen Verwaltungsstand gebracht"
+      ]
+    },
     {
       "version": "0.7.1-beta.22",
       "channel": "beta",
@@ -22,7 +38,7 @@
     {
       "version": "0.7.1-beta.21",
       "channel": "beta",
-      "publishedAtUtc": "2026-08-18T20:00:06.8889123+00:00",
+      "publishedAtUtc": "2026-08-18T22:00:06.8889123+02:00",
       "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.21/BlenkBase-0.7.1-beta.21-win-x64.zip",
       "sizeBytes": 349677257,
       "sha256": "70918D5EEE73788B860845976665BE883617262860F72D78D5F46D182414DFF8",
@@ -38,7 +54,7 @@
     {
       "version": "0.7.1-beta.20",
       "channel": "beta",
-      "publishedAtUtc": "2026-08-18T13:04:32.8261947+00:00",
+      "publishedAtUtc": "2026-08-18T15:04:32.8261947+02:00",
       "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.20/BlenkBase-0.7.1-beta.20-win-x64.zip",
       "sizeBytes": 349598535,
       "sha256": "68C7CE5AEA77EFA254FB2DF345DEB0A0178006B9AAE64A150C1642806314402E",
