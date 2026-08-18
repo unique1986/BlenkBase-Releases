@@ -1,8 +1,24 @@
 {
   "schemaVersion": 1,
   "product": "BlenkBase",
-  "generatedAtUtc": "2026-08-18T13:04:32.8291459+00:00",
+  "generatedAtUtc": "2026-08-18T20:00:06.8986144+00:00",
   "releases": [
+    {
+      "version": "0.7.1-beta.21",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-18T20:00:06.8889123+00:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.21/BlenkBase-0.7.1-beta.21-win-x64.zip",
+      "sizeBytes": 349677257,
+      "sha256": "70918D5EEE73788B860845976665BE883617262860F72D78D5F46D182414DFF8",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Dashboard-Geometrie und Proportionen an die freigegebene Desktop-Referenz angepasst",
+        "Originales blnk-Base-Emblem und Wortmarke in der Navigation eingebunden",
+        "Seitenleiste, angeheftete Instanzen und Versionsangaben überlappen nicht mehr",
+        "Administrator-Profil und Abmelden-Schaltfläche sauber ausgerichtet"
+      ]
+    },
     {
       "version": "0.7.1-beta.20",
       "channel": "beta",
