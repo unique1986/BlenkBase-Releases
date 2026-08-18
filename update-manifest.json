@@ -1,8 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "BlenkBase",
-  "generatedAtUtc": "2026-08-16T15:15:56.9121019+00:00",
+  "generatedAtUtc": "2026-08-18T11:15:24.8425382+00:00",
   "releases": [
+    {
+      "version": "0.7.1-beta.19",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-18T13:13:35.9113777+02:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.19/BlenkBase-0.7.1-beta.19-win-x64.zip",
+      "sizeBytes": 349033400,
+      "sha256": "B0DBF6A9A6E0E0323A00241E40C4F728CD000096DD68D66FEE70B96DED22B25D",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Automatische HTTPS-Domainverwaltung für Wortwelten über den gekoppelten Caddy-Service-Agent",
+        "Bestehende Caddy-Konfiguration bleibt unangetastet; verwaltete Routen werden validiert und bei Fehlern zurückgerollt",
+        "Öffentliche PWA-Domain direkt in den Wortwelten-Servereinstellungen aktivieren"
+      ]
+    },
     {
       "version": "0.7.1-beta.18",
       "channel": "beta",
