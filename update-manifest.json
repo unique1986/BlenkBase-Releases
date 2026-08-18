@@ -1,8 +1,25 @@
 {
   "schemaVersion": 1,
   "product": "BlenkBase",
-  "generatedAtUtc": "2026-08-18T11:15:24.8425382+00:00",
+  "generatedAtUtc": "2026-08-18T13:04:32.8291459+00:00",
   "releases": [
+    {
+      "version": "0.7.1-beta.20",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-18T13:04:32.8261947+00:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.20/BlenkBase-0.7.1-beta.20-win-x64.zip",
+      "sizeBytes": 349598535,
+      "sha256": "68C7CE5AEA77EFA254FB2DF345DEB0A0178006B9AAE64A150C1642806314402E",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Vollständig neues luxuriös-technisches Infrastruktur-Dashboard im freigegebenen blnk-Design",
+        "Neues Command-Beacon-Logo mit violett-champagnerfarbener Tiefenwirkung",
+        "Favoriten, Vierer-Instanzraster und echte Detailsteuerung für Start, Stopp, Neustart, Update und Einstellungen",
+        "Neu gegliederte Navigation für Infrastruktur, Automatisierung und Verwaltung",
+        "Alle bestehenden Instanz-, Sprachserver-, Dienste-, Backup-, Datei- und Konfigurationsfunktionen bleiben erhalten"
+      ]
+    },
     {
       "version": "0.7.1-beta.19",
       "channel": "beta",
