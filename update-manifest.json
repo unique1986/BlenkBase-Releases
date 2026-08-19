@@ -1,8 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "BlenkBase",
-  "generatedAtUtc": "2026-08-19T15:25:24.3567757+00:00",
+  "generatedAtUtc": "2026-08-19T19:10:59.0014389+00:00",
   "releases": [
+    {
+      "version": "0.7.1-beta.26",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-19T19:10:59.0014389+00:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.26/BlenkBase-0.7.1-beta.26-win-x64.zip",
+      "sizeBytes": 350549653,
+      "sha256": "F1DE0F454722DA746DABF49C1E333D9EF3E9B650CB1DA16481E718A437FE2A85",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "blnk-com-Serververwaltung mit Übersicht, Einladungen, Konten, Geräten, Sitzungen, Betrieb, Backup und Updates direkt in Base.",
+        "Besitzer können Admin-Menüs modular auf Gameserver, Voice, Dienste, MSG, Websites, Backups, Automatisierung, Benutzer, System und Einstellungen begrenzen.",
+        "Modulgrenzen werden serverseitig an API- und Instanzzugriffen durchgesetzt; die persönliche App bleibt unverändert."
+      ]
+    },
     {
       "version": "0.7.1-beta.25",
       "channel": "beta",
