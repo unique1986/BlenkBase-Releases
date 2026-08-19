@@ -1,8 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "BlenkBase",
-  "generatedAtUtc": "2026-08-19T20:14:25.4307473+00:00",
+  "generatedAtUtc": "2026-08-19T20:55:32.8369670+00:00",
   "releases": [
+    {
+      "version": "0.7.1-beta.28",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-19T20:55:32.8292553+00:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.28/BlenkBase-0.7.1-beta.28-win-x64.zip",
+      "sizeBytes": 350553680,
+      "sha256": "476F0A470839065865210487723A90F63F51F9C2007CEE2807CBC373D85D49A9",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Live-Protokoll für blnk com zeigt Server-, Update-, Neustart- und Backupereignisse automatisch an.",
+        "Betriebsereignisse werden auf der MSG-VM strukturiert, redigiert und ausschließlich über den HMAC-signierten Service-Agenten übertragen.",
+        "Responsive Protokollansicht mit Pause, manueller Aktualisierung und lokalem JSONL-Export."
+      ]
+    },
     {
       "version": "0.7.1-beta.27",
       "channel": "beta",
