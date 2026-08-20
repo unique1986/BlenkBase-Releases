@@ -1,12 +1,27 @@
 {
   "schemaVersion": 1,
   "product": "BlenkBase",
-  "generatedAtUtc": "2026-08-19T20:55:32.8369670+00:00",
+  "generatedAtUtc": "2026-08-20T07:33:20.0499569+00:00",
   "releases": [
+    {
+      "version": "0.7.1-beta.29",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-20T07:33:20.0446659+00:00",
+      "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.29/BlenkBase-0.7.1-beta.29-win-x64.zip",
+      "sizeBytes": 350553651,
+      "sha256": "76A6CBA394B24065090CAB8E5A0908288AFD3315B31AB841B7A16C456AFA355C",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "SQLite-Zeitplanprüfung verarbeitet LastRunAtUtc ohne nicht übersetzbaren SQL-Vergleich.",
+        "Zeitpläne werden zur vorgesehenen Minute wieder zuverlässig genau einmal und unter Beachtung der Wochentagsmaske ausgeführt.",
+        "Start-, Stopp-, Neustart-, Update- und Backup-Aktionen bleiben unverändert."
+      ]
+    },
     {
       "version": "0.7.1-beta.28",
       "channel": "beta",
-      "publishedAtUtc": "2026-08-19T20:55:32.8292553+00:00",
+      "publishedAtUtc": "2026-08-19T22:55:32.8292553+02:00",
       "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.28/BlenkBase-0.7.1-beta.28-win-x64.zip",
       "sizeBytes": 350553680,
       "sha256": "476F0A470839065865210487723A90F63F51F9C2007CEE2807CBC373D85D49A9",
@@ -21,7 +36,7 @@
     {
       "version": "0.7.1-beta.27",
       "channel": "beta",
-      "publishedAtUtc": "2026-08-19T20:14:25.4307473+00:00",
+      "publishedAtUtc": "2026-08-19T22:14:25.4307473+02:00",
       "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.27/BlenkBase-0.7.1-beta.27-win-x64.zip",
       "sizeBytes": 350552835,
       "sha256": "60868A7B2892DDC1AAF5102916EC9C8E77B4E8D925F1AE0FBC925095546F8BEF",
@@ -36,7 +51,7 @@
     {
       "version": "0.7.1-beta.26",
       "channel": "beta",
-      "publishedAtUtc": "2026-08-19T19:10:59.0014389+00:00",
+      "publishedAtUtc": "2026-08-19T21:10:59.0014389+02:00",
       "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.26/BlenkBase-0.7.1-beta.26-win-x64.zip",
       "sizeBytes": 350549653,
       "sha256": "F1DE0F454722DA746DABF49C1E333D9EF3E9B650CB1DA16481E718A437FE2A85",
@@ -51,7 +66,7 @@
     {
       "version": "0.7.1-beta.25",
       "channel": "beta",
-      "publishedAtUtc": "2026-08-19T15:25:24.3422553+00:00",
+      "publishedAtUtc": "2026-08-19T17:25:24.3422553+02:00",
       "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.25/BlenkBase-0.7.1-beta.25-win-x64.zip",
       "sizeBytes": 344254266,
       "sha256": "6CE8ED3F2D0B8D637FC7CBF7BA6D5C7A5F724B0692ED04BDD33A3F4126F11F22",
@@ -66,7 +81,7 @@
     {
       "version": "0.7.1-beta.24",
       "channel": "beta",
-      "publishedAtUtc": "2026-08-19T08:41:14.2594665+00:00",
+      "publishedAtUtc": "2026-08-19T10:41:14.2594665+02:00",
       "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.24/BlenkBase-0.7.1-beta.24-win-x64.zip",
       "sizeBytes": 350533903,
       "sha256": "FB86D5D20492011E8A8ABFAFC9696E4084BA3F065BB6E0861D341DCD7918BC97",
@@ -81,7 +96,7 @@
     {
       "version": "0.7.1-beta.23",
       "channel": "beta",
-      "publishedAtUtc": "2026-08-18T21:20:09.0169061+00:00",
+      "publishedAtUtc": "2026-08-18T23:20:09.0169061+02:00",
       "packageUrl": "https://github.com/unique1986/BlenkBase-Releases/releases/download/v0.7.1-beta.23/BlenkBase-0.7.1-beta.23-win-x64.zip",
       "sizeBytes": 350532993,
       "sha256": "2BD24AF3D9EC0B8D575FE076E147CFEB8E4D7E6C21CFB84A684BD3E3DACF6A63",
