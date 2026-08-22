@@ -1,12 +1,27 @@
 {
   "schemaVersion": 1,
   "product": "BlenkBase",
-  "generatedAtUtc": "2026-08-22T09:08:41.9657904+00:00",
+  "generatedAtUtc": "2026-08-22T14:54:56.5114691+00:00",
   "releases": [
+    {
+      "version": "0.7.1-beta.31",
+      "channel": "beta",
+      "publishedAtUtc": "2026-08-22T14:54:56.5069157+00:00",
+      "packageUrl": "https://github.com/blnk-projects/BlenkBase-Releases/releases/download/v0.7.1-beta.31/BlenkBase-0.7.1-beta.31-win-x64.zip",
+      "sizeBytes": 346596929,
+      "sha256": "FE1BF426DAA6B9D926E3FA367DB493727997A59D6668CF8B1427A03BEB626265",
+      "minimumVersion": "0.7.0-preview.1",
+      "mandatory": false,
+      "releaseNotes": [
+        "Zentrale SMTP-Einrichtung für blnk-com über den privaten Service-Agenten.",
+        "Testmail über STARTTLS mit mindestens TLS 1.2, ausdrücklicher Empfangsbestätigung und einmaligem 10-Minuten-Token.",
+        "SMTP-Passwörter und Management-Bearer-Token bleiben geschützt; die E-Mail-Pflicht bleibt deaktiviert und blnk-com wird nach dem Speichern kontrolliert neu gestartet."
+      ]
+    },
     {
       "version": "0.7.1-beta.30",
       "channel": "beta",
-      "publishedAtUtc": "2026-08-22T09:08:41.9611501+00:00",
+      "publishedAtUtc": "2026-08-22T11:08:41.9611501+02:00",
       "packageUrl": "https://github.com/blnk-projects/BlenkBase-Releases/releases/download/v0.7.1-beta.30/BlenkBase-0.7.1-beta.30-win-x64.zip",
       "sizeBytes": 346582831,
       "sha256": "9A17F03E2B93DECD8B4B58BEB798B755730B920AFA91A0D8888ECC8CE55F2E08",
@@ -21,7 +36,7 @@
     {
       "version": "0.7.1-beta.29",
       "channel": "beta",
-      "publishedAtUtc": "2026-08-20T07:33:20.0446659+00:00",
+      "publishedAtUtc": "2026-08-20T09:33:20.0446659+02:00",
       "packageUrl": "https://github.com/blnk-projects/BlenkBase-Releases/releases/download/v0.7.1-beta.29/BlenkBase-0.7.1-beta.29-win-x64.zip",
       "sizeBytes": 350553651,
       "sha256": "76A6CBA394B24065090CAB8E5A0908288AFD3315B31AB841B7A16C456AFA355C",
